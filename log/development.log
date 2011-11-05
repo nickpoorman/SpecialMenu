@@ -97,3 +97,7 @@ Served asset /users.js - 200 OK (37ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-10-31 23:11:20 -0400
 Served asset /application.js - 200 OK (8ms)
+MongoDB logging. Please note that logging negatively impacts performance and should be disabled for high-performance production apps.
+MongoDB logging. Please note that logging negatively impacts performance and should be disabled for high-performance production apps.
+MONGODB admin['$cmd'].find({:ismaster=>1})
+MONGODB admin['$cmd'].find({:ismaster=>1})

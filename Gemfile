@@ -19,3 +19,4 @@ gem "sorcery"
 
 gem 'awesome_print', :require => 'ap'
 gem 'heroku'
+gem 'geocoder'
