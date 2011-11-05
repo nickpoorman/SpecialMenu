@@ -1,4 +1,6 @@
 class SpecialsController < ApplicationController
+  skip_before_filter :require_login, :only => [:index]
+
   # GET /specials
   # GET /specials.json
   def index

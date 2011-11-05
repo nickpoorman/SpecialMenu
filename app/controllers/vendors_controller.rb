@@ -1,4 +1,6 @@
 class VendorsController < ApplicationController
+  #skip_before_filter :require_login, :only => [:index]
+
   # GET /vendors
   # GET /vendors.json
   def index
@@ -7,7 +9,9 @@ class VendorsController < ApplicationController
 #        @vendors = Vendor.near(params[:search]) 
 #         @cord = Geocoder.coordinates("25 Main St, Cooperstown, NY")
 #    else
-        @vendors = Vendor.all
+        ##TODO: Will most likely need to change this to only display the users vendor
+#        @vendors = Vendor.all
+        @vendors = Vendor.where()
 #    end
 
     respond_to do |format|
