@@ -1,0 +1,15 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  Founder: Nicholas Poorman
+  Site: zapwire.me
+  Twitter: zapwire
+  Location: New York
+
+/* THANKS */
+  Names (& URL): Nicholas Poorman (http://poorman.me)
+
+/* SITE */
+  Standards: HTML5, CSS3

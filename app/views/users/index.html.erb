@@ -1,0 +1,11 @@
+<%# The user index controller controlls the home page for users, if logged in or not  %>
+<% if logged_in? %>
+  <%# Need to display all the logged in stuff here %>
+  <div class="loggedOut">
+  </div>
+<% else %>
+  <div class="loggedIn">
+    <h2 class="indexTitle">Member Sign In</h2>
+    <%= render 'user_sessions/form' %>
+  </div>
+<% end %>
