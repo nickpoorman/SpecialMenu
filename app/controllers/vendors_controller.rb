@@ -2,17 +2,27 @@ class VendorsController < ApplicationController
   # GET /vendors
   # GET /vendors.json
   def index
-    #if params[:latitude].present? && params[:longitude].present? && params[:radius].present?
-    #    @vendors = Vendor.near([params[:latitude],params[:longitude]], params[:radius])
-    #else
-      @vendors = Vendor.all
-    #end
+#    if params[:latitude].present? && params[:longitude].present? && params[:radius].present?
+#        @vendors = Vendor.near([params[:latitude],params[:longitude]], params[:radius])
+#        @vendors = Vendor.near(params[:search]) 
+#         @cord = Geocoder.coordinates("25 Main St, Cooperstown, NY")
+#    else
+        @vendors = Vendor.all
+#    end
 
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @vendors }
     end
   end
+
+#  def search
+#    @vendors = Vendor.
+#    respond_to do |format|
+#      format.html # index.html.erb
+#      format.json { render json: @vendors }
+#    end
+#  end
 
   # GET /vendors/1
   # GET /vendors/1.json

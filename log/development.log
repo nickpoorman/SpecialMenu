@@ -303,3 +303,2543 @@ ActionController::RoutingError (No route matches [GET] "/vendor"):
   
 
 Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.3ms)
+MongoDB logging. Please note that logging negatively impacts performance and should be disabled for high-performance production apps.
+MONGODB admin['$cmd'].find({:ismaster=>1})
+MONGODB admin['$cmd'].find({:ismaster=>1})
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-05 13:58:29 -0400
+  Processing by UsersController#index as HTML
+Rendered user_sessions/_form.html.erb (11.9ms)
+Rendered users/index.html.erb within layouts/application (289.2ms)
+Rendered shared/_navigation.html.erb (8.6ms)
+Completed 200 OK in 1028ms (Views: 1024.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-05 13:58:32 -0400
+Served asset /application.css - 304 Not Modified (38ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-05 13:58:32 -0400
+Served asset /base.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-05 13:58:32 -0400
+Served asset /layout.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-05 13:58:32 -0400
+Served asset /normalize.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-05 13:58:32 -0400
+Served asset /scaffolds.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-05 13:58:32 -0400
+Served asset /skeleton.css - 304 Not Modified (62ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-05 13:58:33 -0400
+Served asset /users.css - 304 Not Modified (173ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-05 13:58:33 -0400
+Served asset /specials.css - 304 Not Modified (42ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-05 13:58:33 -0400
+Served asset /jquery.js - 304 Not Modified (44ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-05 13:58:33 -0400
+Served asset /vendors.css - 304 Not Modified (26ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-05 13:58:33 -0400
+Served asset /user_sessions.css - 304 Not Modified (41ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-05 13:58:33 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (53ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-05 13:58:33 -0400
+Served asset /home.js - 304 Not Modified (38ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-05 13:58:33 -0400
+Served asset /jqueryui.js - 304 Not Modified (38ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-05 13:58:33 -0400
+Served asset /modernizr.js - 304 Not Modified (29ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-05 13:58:33 -0400
+Served asset /specials.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-05 13:58:33 -0400
+Served asset /tabs.js - 304 Not Modified (30ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-05 13:58:33 -0400
+Served asset /user_sessions.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-05 13:58:33 -0400
+Served asset /users.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-05 13:58:33 -0400
+Served asset /vendors.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-05 13:58:33 -0400
+Served asset /application.js - 304 Not Modified (25ms)
+
+
+Started GET "/vendors" for 127.0.0.1 at 2011-11-05 13:59:04 -0400
+  Processing by VendorsController#index as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-05 13:59:04 -0400
+  Processing by UsersController#index as HTML
+Rendered user_sessions/_form.html.erb (7.5ms)
+Rendered users/index.html.erb within layouts/application (10.4ms)
+Rendered shared/_navigation.html.erb (4.6ms)
+Completed 200 OK in 114ms (Views: 110.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-05 13:59:05 -0400
+Served asset /application.css - 304 Not Modified (72ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-05 13:59:05 -0400
+Served asset /base.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-05 13:59:05 -0400
+Served asset /layout.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-05 13:59:05 -0400
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-05 13:59:05 -0400
+Served asset /skeleton.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-05 13:59:05 -0400
+Served asset /normalize.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-05 13:59:06 -0400
+Served asset /user_sessions.css - 304 Not Modified (34ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-05 13:59:06 -0400
+Served asset /vendors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-05 13:59:06 -0400
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-05 13:59:06 -0400
+Served asset /specials.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-05 13:59:06 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-05 13:59:06 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-05 13:59:06 -0400
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-05 13:59:06 -0400
+Served asset /jqueryui.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-05 13:59:06 -0400
+Served asset /modernizr.js - 304 Not Modified (62ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-05 13:59:06 -0400
+Served asset /users.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-05 13:59:06 -0400
+Served asset /tabs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-05 13:59:06 -0400
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-05 13:59:06 -0400
+Served asset /user_sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-05 13:59:06 -0400
+Served asset /vendors.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-05 13:59:06 -0400
+Served asset /application.js - 304 Not Modified (14ms)
+MongoDB logging. Please note that logging negatively impacts performance and should be disabled for high-performance production apps.
+MONGODB admin['$cmd'].find({:ismaster=>1})
+MONGODB admin['$cmd'].find({:ismaster=>1})
+
+
+Started GET "/vendors" for 127.0.0.1 at 2011-11-05 14:02:53 -0400
+  Processing by VendorsController#index as HTML
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['$cmd'].find({:create=>"vendors"})
+MONGODB zapwire_development['vendors'].find({})
+Rendered vendors/index.html.erb within layouts/application (218.6ms)
+Rendered shared/_navigation.html.erb (8.4ms)
+Completed 200 OK in 970ms (Views: 967.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-05 14:02:55 -0400
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-05 14:02:56 -0400
+Served asset /base.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-05 14:02:56 -0400
+Served asset /layout.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-05 14:02:56 -0400
+Served asset /users.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-05 14:02:56 -0400
+Served asset /skeleton.css - 304 Not Modified (35ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-05 14:02:56 -0400
+Served asset /normalize.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-05 14:02:56 -0400
+Served asset /specials.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-05 14:02:56 -0400
+Served asset /user_sessions.css - 304 Not Modified (25ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-05 14:02:56 -0400
+Served asset /scaffolds.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-05 14:02:56 -0400
+Served asset /vendors.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-05 14:02:56 -0400
+Served asset /jquery.js - 304 Not Modified (44ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-05 14:02:56 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (57ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-05 14:02:56 -0400
+Served asset /home.js - 304 Not Modified (24ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-05 14:02:56 -0400
+Served asset /jqueryui.js - 304 Not Modified (29ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-05 14:02:56 -0400
+Served asset /modernizr.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-05 14:02:56 -0400
+Served asset /specials.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-05 14:02:56 -0400
+Served asset /tabs.js - 304 Not Modified (50ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-05 14:02:56 -0400
+Served asset /user_sessions.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-05 14:02:56 -0400
+Served asset /users.js - 304 Not Modified (148ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-05 14:02:57 -0400
+Served asset /vendors.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-05 14:02:57 -0400
+Served asset /application.js - 304 Not Modified (14ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-05 14:10:39 -0400
+  Processing by UsersController#index as HTML
+Rendered user_sessions/_form.html.erb (10.2ms)
+Rendered users/index.html.erb within layouts/application (16.5ms)
+Rendered shared/_navigation.html.erb (5.2ms)
+Completed 200 OK in 132ms (Views: 129.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-05 14:10:41 -0400
+Served asset /application.css - 304 Not Modified (62ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-05 14:10:41 -0400
+Served asset /base.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-05 14:10:41 -0400
+Served asset /normalize.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-05 14:10:41 -0400
+Served asset /layout.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-05 14:10:41 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-05 14:10:41 -0400
+Served asset /skeleton.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-05 14:10:41 -0400
+Served asset /user_sessions.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-05 14:10:41 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-05 14:10:41 -0400
+Served asset /vendors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-05 14:10:41 -0400
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-05 14:10:41 -0400
+Served asset /specials.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-05 14:10:41 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-05 14:10:41 -0400
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-05 14:10:41 -0400
+Served asset /jqueryui.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-05 14:10:41 -0400
+Served asset /modernizr.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-05 14:10:41 -0400
+Served asset /tabs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-05 14:10:41 -0400
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-05 14:10:41 -0400
+Served asset /user_sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-05 14:10:41 -0400
+Served asset /vendors.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-05 14:10:41 -0400
+Served asset /application.js - 304 Not Modified (130ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-05 14:10:42 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2011-11-05 14:10:44 -0400
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.erb (35.6ms)
+Rendered users/new.html.erb within layouts/application (43.3ms)
+Rendered shared/_navigation.html.erb (4.9ms)
+Completed 200 OK in 159ms (Views: 154.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-05 14:10:45 -0400
+Served asset /application.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-05 14:10:46 -0400
+Served asset /base.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-05 14:10:46 -0400
+Served asset /layout.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-05 14:10:46 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-05 14:10:46 -0400
+Served asset /skeleton.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-05 14:10:46 -0400
+Served asset /user_sessions.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-05 14:10:46 -0400
+Served asset /normalize.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-05 14:10:46 -0400
+Served asset /specials.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-05 14:10:46 -0400
+Served asset /users.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-05 14:10:46 -0400
+Served asset /vendors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-05 14:10:46 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-05 14:10:46 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-05 14:10:46 -0400
+Served asset /home.js - 304 Not Modified (24ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-05 14:10:46 -0400
+Served asset /jqueryui.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-05 14:10:46 -0400
+Served asset /modernizr.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-05 14:10:46 -0400
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-05 14:10:46 -0400
+Served asset /tabs.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-05 14:10:46 -0400
+Served asset /user_sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-05 14:10:46 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-05 14:10:46 -0400
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-05 14:10:46 -0400
+Served asset /application.js - 304 Not Modified (16ms)
+
+
+Started GET "/vendors" for 127.0.0.1 at 2011-11-05 14:12:19 -0400
+  Processing by VendorsController#index as HTML
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['vendors'].find({})
+Rendered vendors/index.html.erb within layouts/application (5.7ms)
+Rendered shared/_navigation.html.erb (5.1ms)
+Completed 200 OK in 104ms (Views: 100.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-05 14:12:20 -0400
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-05 14:12:20 -0400
+Served asset /base.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-05 14:12:20 -0400
+Served asset /specials.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-05 14:12:20 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-05 14:12:20 -0400
+Served asset /layout.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-05 14:12:20 -0400
+Served asset /normalize.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-05 14:12:20 -0400
+Served asset /skeleton.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-05 14:12:20 -0400
+Served asset /user_sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-05 14:12:20 -0400
+Served asset /vendors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-05 14:12:20 -0400
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-05 14:12:20 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-05 14:12:20 -0400
+Served asset /home.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-05 14:12:20 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-05 14:12:20 -0400
+Served asset /jqueryui.js - 304 Not Modified (29ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-05 14:12:21 -0400
+Served asset /modernizr.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-05 14:12:21 -0400
+Served asset /specials.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-05 14:12:21 -0400
+Served asset /tabs.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-05 14:12:21 -0400
+Served asset /user_sessions.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-05 14:12:21 -0400
+Served asset /users.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-05 14:12:21 -0400
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-05 14:12:21 -0400
+Served asset /application.js - 304 Not Modified (19ms)
+
+
+Started GET "/vendors/new" for 127.0.0.1 at 2011-11-05 14:14:09 -0400
+  Processing by VendorsController#new as HTML
+Rendered vendors/_form.html.erb (22.1ms)
+Rendered vendors/new.html.erb within layouts/application (30.6ms)
+Rendered shared/_navigation.html.erb (5.0ms)
+Completed 200 OK in 245ms (Views: 241.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-05 14:14:10 -0400
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-05 14:14:10 -0400
+Served asset /base.css - 304 Not Modified (34ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-05 14:14:10 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-05 14:14:10 -0400
+Served asset /normalize.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-05 14:14:10 -0400
+Served asset /layout.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-05 14:14:10 -0400
+Served asset /skeleton.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-05 14:14:10 -0400
+Served asset /specials.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-05 14:14:10 -0400
+Served asset /users.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-05 14:14:10 -0400
+Served asset /user_sessions.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-05 14:14:10 -0400
+Served asset /vendors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-05 14:14:10 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-05 14:14:10 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-05 14:14:10 -0400
+Served asset /home.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-05 14:14:10 -0400
+Served asset /jqueryui.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-05 14:14:10 -0400
+Served asset /modernizr.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-05 14:14:10 -0400
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-05 14:14:10 -0400
+Served asset /tabs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-05 14:14:10 -0400
+Served asset /user_sessions.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-05 14:14:10 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-05 14:14:10 -0400
+Served asset /application.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-05 14:14:10 -0400
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/vendors/new" for 127.0.0.1 at 2011-11-05 14:36:38 -0400
+  Processing by VendorsController#new as HTML
+Rendered vendors/_form.html.erb (13.7ms)
+Rendered vendors/new.html.erb within layouts/application (19.5ms)
+Rendered shared/_navigation.html.erb (3.2ms)
+Completed 200 OK in 120ms (Views: 115.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-05 14:36:39 -0400
+Served asset /application.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-05 14:36:39 -0400
+Served asset /base.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-05 14:36:39 -0400
+Served asset /layout.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-05 14:36:39 -0400
+Served asset /user_sessions.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-05 14:36:39 -0400
+Served asset /skeleton.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-05 14:36:39 -0400
+Served asset /normalize.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-05 14:36:39 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-05 14:36:39 -0400
+Served asset /vendors.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-05 14:36:39 -0400
+Served asset /users.css - 304 Not Modified (25ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-05 14:36:39 -0400
+Served asset /specials.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-05 14:36:39 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-05 14:36:39 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-05 14:36:39 -0400
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-05 14:36:39 -0400
+Served asset /jqueryui.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-05 14:36:39 -0400
+Served asset /modernizr.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-05 14:36:39 -0400
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-05 14:36:40 -0400
+Served asset /tabs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-05 14:36:40 -0400
+Served asset /user_sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-05 14:36:40 -0400
+Served asset /users.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-05 14:36:40 -0400
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-05 14:36:40 -0400
+Served asset /application.js - 304 Not Modified (16ms)
+
+
+Started GET "/vendors" for 127.0.0.1 at 2011-11-05 14:36:43 -0400
+  Processing by VendorsController#index as HTML
+Completed 500 Internal Server Error in 4ms
+
+ArgumentError (wrong number of arguments (3 for 1)):
+  app/controllers/vendors_controller.rb:7:in `index'
+
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.0ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.4ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.0ms)
+MongoDB logging. Please note that logging negatively impacts performance and should be disabled for high-performance production apps.
+MONGODB admin['$cmd'].find({:ismaster=>1})
+MONGODB admin['$cmd'].find({:ismaster=>1})
+
+
+Started GET "/vendors" for 127.0.0.1 at 2011-11-05 14:37:38 -0400
+  Processing by VendorsController#index as HTML
+Rendered vendors/index.html.erb within layouts/application (324.5ms)
+Completed 500 Internal Server Error in 649ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"vendors"}):
+    1: <%= form_tag vendor_path, :method => :get do %>
+    2:   <p>
+    3:     <%= text_field_tag :search, params[:search] %>
+    4:     <%= submit_tag "Search Near" %>
+  app/views/vendors/index.html.erb:1:in `_app_views_vendors_index_html_erb__372687628_97197860'
+  app/controllers/vendors_controller.rb:12:in `index'
+
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.3ms)
+
+
+Started GET "/vendors" for 127.0.0.1 at 2011-11-05 14:37:48 -0400
+  Processing by VendorsController#index as HTML
+Rendered vendors/index.html.erb within layouts/application (6.1ms)
+Completed 500 Internal Server Error in 32ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"vendors"}):
+    1: <%= form_tag vendor_path, :method => :get do %>
+    2:   <p>
+    3:     <%= text_field_tag :search, params[:search] %>
+    4:     <%= submit_tag "Search Near" %>
+  app/views/vendors/index.html.erb:1:in `_app_views_vendors_index_html_erb__372687628_97197860'
+  app/controllers/vendors_controller.rb:12:in `index'
+
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.1ms)
+
+
+Started GET "/vendors" for 127.0.0.1 at 2011-11-05 14:38:03 -0400
+  Processing by VendorsController#index as HTML
+Rendered vendors/index.html.erb within layouts/application (7.0ms)
+Completed 500 Internal Server Error in 39ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"vendors"}):
+    1: <%= form_tag vendor_path, :method => :get do %>
+    2:   <p>
+    3:     <%= text_field_tag :search, params[:search] %>
+    4:     <%= submit_tag "Search Near" %>
+  app/views/vendors/index.html.erb:1:in `_app_views_vendors_index_html_erb__372687628_97197860'
+  app/controllers/vendors_controller.rb:12:in `index'
+
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.8ms)
+MongoDB logging. Please note that logging negatively impacts performance and should be disabled for high-performance production apps.
+MONGODB admin['$cmd'].find({:ismaster=>1})
+MONGODB admin['$cmd'].find({:ismaster=>1})
+
+
+Started GET "/vendors" for 127.0.0.1 at 2011-11-05 14:51:41 -0400
+  Processing by VendorsController#index as HTML
+Rendered vendors/index.html.erb within layouts/application (143.2ms)
+Rendered shared/_navigation.html.erb (13.1ms)
+Completed 200 OK in 908ms (Views: 904.5ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-05 14:51:43 -0400
+Served asset /base.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-05 14:51:43 -0400
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-05 14:51:43 -0400
+Served asset /layout.css - 304 Not Modified (41ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-05 14:51:44 -0400
+Served asset /user_sessions.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-05 14:51:44 -0400
+Served asset /normalize.css - 304 Not Modified (50ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-05 14:51:44 -0400
+Served asset /specials.css - 304 Not Modified (42ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-05 14:51:44 -0400
+Served asset /scaffolds.css - 304 Not Modified (34ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-05 14:51:44 -0400
+Served asset /skeleton.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-05 14:51:44 -0400
+Served asset /users.css - 304 Not Modified (32ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-05 14:51:44 -0400
+Served asset /vendors.css - 304 Not Modified (25ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-05 14:51:44 -0400
+Served asset /jquery.js - 304 Not Modified (41ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-05 14:51:44 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (41ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-05 14:51:44 -0400
+Served asset /home.js - 304 Not Modified (35ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-05 14:51:44 -0400
+Served asset /jqueryui.js - 304 Not Modified (35ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-05 14:51:44 -0400
+Served asset /modernizr.js - 304 Not Modified (32ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-05 14:51:44 -0400
+Served asset /specials.js - 304 Not Modified (30ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-05 14:51:44 -0400
+Served asset /tabs.js - 304 Not Modified (23ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-05 14:51:44 -0400
+Served asset /user_sessions.js - 304 Not Modified (126ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-05 14:51:44 -0400
+Served asset /users.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-05 14:51:44 -0400
+Served asset /vendors.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-05 14:51:44 -0400
+Served asset /application.js - 304 Not Modified (15ms)
+
+
+Started GET "/vendors?utf8=%E2%9C%93&search=Hess%2C+Syracuse%2C+NY" for 127.0.0.1 at 2011-11-05 14:52:02 -0400
+  Processing by VendorsController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"Hess, Syracuse, NY"}
+Completed 500 Internal Server Error in 5ms
+
+NoMethodError (undefined method `each_pair' for "Hess, Syracuse, NY":String):
+  app/controllers/vendors_controller.rb:7:in `index'
+
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (9.4ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.6ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (27.8ms)
+MongoDB logging. Please note that logging negatively impacts performance and should be disabled for high-performance production apps.
+MONGODB admin['$cmd'].find({:ismaster=>1})
+MONGODB admin['$cmd'].find({:ismaster=>1})
+
+
+Started GET "/vendors?utf8=%E2%9C%93&search=Hess%2C+Syracuse%2C+NY" for 127.0.0.1 at 2011-11-05 15:02:04 -0400
+  Processing by VendorsController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"Hess, Syracuse, NY"}
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError (undefined method `each_pair' for "Hess, Syracuse, NY":String):
+  app/controllers/vendors_controller.rb:7:in `index'
+
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.5ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (25.3ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (154.2ms)
+
+
+Started GET "/vendors?utf8=%E2%9C%93&search=Syracuse" for 127.0.0.1 at 2011-11-05 15:02:19 -0400
+  Processing by VendorsController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"Syracuse"}
+Completed 500 Internal Server Error in 5ms
+
+NoMethodError (undefined method `each_pair' for "Syracuse":String):
+  app/controllers/vendors_controller.rb:7:in `index'
+
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (10.2ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.5ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.2ms)
+MongoDB logging. Please note that logging negatively impacts performance and should be disabled for high-performance production apps.
+MONGODB admin['$cmd'].find({:ismaster=>1})
+MONGODB admin['$cmd'].find({:ismaster=>1})
+
+
+Started GET "/vendors" for 127.0.0.1 at 2011-11-05 15:31:50 -0400
+Creating scope :near. Overwriting existing method Vendor.near.
+  Processing by VendorsController#index as HTML
+Completed 500 Internal Server Error in 4ms
+
+NoMethodError (undefined method `to_coordinates' for nil:NilClass):
+  app/controllers/vendors_controller.rb:7:in `index'
+
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (14.2ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (40.9ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (210.1ms)
+
+
+Started GET "/vendors" for 127.0.0.1 at 2011-11-05 15:32:07 -0400
+Creating scope :near. Overwriting existing method Vendor.near.
+  Processing by VendorsController#index as HTML
+Completed 500 Internal Server Error in 5ms
+
+NoMethodError (undefined method `to_coordinates' for nil:NilClass):
+  app/controllers/vendors_controller.rb:7:in `index'
+
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (9.2ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.0ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.3ms)
+
+
+Started GET "/vendors" for 127.0.0.1 at 2011-11-05 15:42:52 -0400
+Creating scope :near. Overwriting existing method Vendor.near.
+  Processing by VendorsController#index as HTML
+Rendered vendors/index.html.erb within layouts/application (7.0ms)
+Rendered shared/_navigation.html.erb (7.2ms)
+Completed 200 OK in 853ms (Views: 472.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-05 15:42:54 -0400
+Served asset /application.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-05 15:42:54 -0400
+Served asset /base.css - 304 Not Modified (108ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-05 15:42:55 -0400
+Served asset /layout.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-05 15:42:55 -0400
+Served asset /scaffolds.css - 304 Not Modified (41ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-05 15:42:55 -0400
+Served asset /normalize.css - 304 Not Modified (41ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-05 15:42:55 -0400
+Served asset /specials.css - 304 Not Modified (45ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-05 15:42:55 -0400
+Served asset /skeleton.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-05 15:42:55 -0400
+Served asset /user_sessions.css - 304 Not Modified (44ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-05 15:42:55 -0400
+Served asset /users.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-05 15:42:55 -0400
+Served asset /vendors.css - 304 Not Modified (31ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-05 15:42:55 -0400
+Served asset /jquery.js - 304 Not Modified (42ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-05 15:42:55 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (36ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-05 15:42:55 -0400
+Served asset /home.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-05 15:42:55 -0400
+Served asset /jqueryui.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-05 15:42:55 -0400
+Served asset /modernizr.js - 304 Not Modified (107ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-05 15:42:55 -0400
+Served asset /specials.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-05 15:42:55 -0400
+Served asset /tabs.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-05 15:42:55 -0400
+Served asset /user_sessions.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-05 15:42:55 -0400
+Served asset /users.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-05 15:42:55 -0400
+Served asset /vendors.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-05 15:42:55 -0400
+Served asset /application.js - 304 Not Modified (18ms)
+
+
+Started GET "/vendors" for 127.0.0.1 at 2011-11-05 15:45:35 -0400
+Creating scope :near. Overwriting existing method Vendor.near.
+  Processing by VendorsController#index as HTML
+ERROR: compiling _app_views_vendors_index_html_erb__1049684412_80943020 RAISED /home/nick/projects/SpecialMenu/app/views/vendors/index.html.erb:8: syntax error, unexpected '|', expecting tCOLON2 or '[' or '.'
+...er.append=  for @vendors.each |vendor| do @output_buffer.saf...
+...                               ^
+/home/nick/projects/SpecialMenu/app/views/vendors/index.html.erb:10: syntax error, unexpected keyword_end
+');@output_buffer.append= ( end );@output_buffer.safe_concat('
+                               ^
+/home/nick/projects/SpecialMenu/app/views/vendors/index.html.erb:12: syntax error, unexpected keyword_ensure, expecting ')'
+/home/nick/projects/SpecialMenu/app/views/vendors/index.html.erb:14: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_vendors_index_html_erb__1049684412_80943020(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "vendors/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.append=  form_tag vendors_path, :method => :get do @output_buffer.safe_concat('
+');@output_buffer.safe_concat('  <p>
+    ');@output_buffer.append= ( text_field_tag :search, params[:search] );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    ');@output_buffer.append= ( submit_tag "Search Near", :name => nil );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  </p>
+'); end 
+@output_buffer.safe_concat('
+');@output_buffer.append=  for @vendors.each |vendor| do @output_buffer.safe_concat('
+');@output_buffer.safe_concat('  ');@output_buffer.append= ( vendor.to_json );@output_buffer.safe_concat('
+');@output_buffer.append= ( end );@output_buffer.safe_concat('
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/template.rb:282:in `module_eval'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/template.rb:282:in `compile'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/template.rb:190:in `compile!'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/template.rb:143:in `block in render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/notifications.rb:55:in `instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/template.rb:142:in `render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:40:in `block (2 levels) in render_template'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `block in instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `block in instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:39:in `block in render_template'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:12:in `block in render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:17:in `render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:99:in `render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/nick/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/mime_responds.rb:268:in `block in retrieve_response_from_mimes'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/mime_responds.rb:195:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/mime_responds.rb:195:in `respond_to'
+/home/nick/projects/SpecialMenu/app/controllers/vendors_controller.rb:13:in `index'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:167:in `process_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:425:in `_run__591503030__process_action__853641457__callbacks'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `block in instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:121:in `process'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:45:in `process'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal.rb:193:in `dispatch'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal.rb:236:in `block in action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `block in call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `block in recognize'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:532:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/mongoid-2.3.3/lib/rack/mongoid/middleware/identity_map.rb:33:in `block in call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/mongoid-2.3.3/lib/mongoid.rb:132:in `unit_of_work'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/mongoid-2.3.3/lib/rack/mongoid/middleware/identity_map.rb:33:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/etag.rb:23:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/conditionalget.rb:25:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/session/abstract/id.rb:195:in `context'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/session/abstract/id.rb:190:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/cookies.rb:331:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/sendfile.rb:101:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.1.1/lib/rails/rack/logger.rb:13:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/methodoverride.rb:24:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/runtime.rb:17:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/lock.rb:15:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/static.rb:53:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.1.1/lib/rails/engine.rb:456:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.1.1/lib/rails/rack/content_length.rb:16:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.1.1/lib/rails/rack/log_tailer.rb:14:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/handler/webrick.rb:59:in `service'
+/home/nick/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/home/nick/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/home/nick/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered vendors/index.html.erb within layouts/application (258.4ms)
+Completed 500 Internal Server Error in 434ms
+
+ActionView::Template::Error (/home/nick/projects/SpecialMenu/app/views/vendors/index.html.erb:8: syntax error, unexpected '|', expecting tCOLON2 or '[' or '.'
+...er.append=  for @vendors.each |vendor| do @output_buffer.saf...
+...                               ^
+/home/nick/projects/SpecialMenu/app/views/vendors/index.html.erb:10: syntax error, unexpected keyword_end
+');@output_buffer.append= ( end );@output_buffer.safe_concat('
+                               ^
+/home/nick/projects/SpecialMenu/app/views/vendors/index.html.erb:12: syntax error, unexpected keyword_ensure, expecting ')'
+/home/nick/projects/SpecialMenu/app/views/vendors/index.html.erb:14: syntax error, unexpected keyword_end, expecting ')'):
+    5:   </p>
+    6: <% end %>
+    7: 
+    8: <%= for @vendors.each |vendor| do %>
+    9:   <%= vendor.to_json %>
+    10: <%= end %>
+  app/controllers/vendors_controller.rb:13:in `index'
+
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (10.5ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.5ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (26.1ms)
+
+
+Started GET "/vendors" for 127.0.0.1 at 2011-11-05 15:45:51 -0400
+Creating scope :near. Overwriting existing method Vendor.near.
+  Processing by VendorsController#index as HTML
+ERROR: compiling _app_views_vendors_index_html_erb__1049684412_82408510 RAISED /home/nick/projects/SpecialMenu/app/views/vendors/index.html.erb:10: syntax error, unexpected keyword_end
+');@output_buffer.append= ( end );@output_buffer.safe_concat('
+                               ^
+/home/nick/projects/SpecialMenu/app/views/vendors/index.html.erb:12: syntax error, unexpected keyword_ensure, expecting ')'
+/home/nick/projects/SpecialMenu/app/views/vendors/index.html.erb:14: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_vendors_index_html_erb__1049684412_82408510(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "vendors/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.append=  form_tag vendors_path, :method => :get do @output_buffer.safe_concat('
+');@output_buffer.safe_concat('  <p>
+    ');@output_buffer.append= ( text_field_tag :search, params[:search] );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    ');@output_buffer.append= ( submit_tag "Search Near", :name => nil );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  </p>
+'); end 
+@output_buffer.safe_concat('
+');@output_buffer.append=  for @vendors.each do |vendor| @output_buffer.safe_concat('
+');@output_buffer.safe_concat('  ');@output_buffer.append= ( vendor.to_json );@output_buffer.safe_concat('
+');@output_buffer.append= ( end );@output_buffer.safe_concat('
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/template.rb:282:in `module_eval'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/template.rb:282:in `compile'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/template.rb:190:in `compile!'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/template.rb:143:in `block in render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/notifications.rb:55:in `instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/template.rb:142:in `render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:40:in `block (2 levels) in render_template'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `block in instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `block in instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:39:in `block in render_template'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:12:in `block in render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:17:in `render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:99:in `render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/nick/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/mime_responds.rb:268:in `block in retrieve_response_from_mimes'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/mime_responds.rb:195:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/mime_responds.rb:195:in `respond_to'
+/home/nick/projects/SpecialMenu/app/controllers/vendors_controller.rb:13:in `index'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:167:in `process_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:425:in `_run__591503030__process_action__853641457__callbacks'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `block in instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:121:in `process'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:45:in `process'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal.rb:193:in `dispatch'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal.rb:236:in `block in action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `block in call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `block in recognize'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:532:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/mongoid-2.3.3/lib/rack/mongoid/middleware/identity_map.rb:33:in `block in call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/mongoid-2.3.3/lib/mongoid.rb:132:in `unit_of_work'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/mongoid-2.3.3/lib/rack/mongoid/middleware/identity_map.rb:33:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/etag.rb:23:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/conditionalget.rb:25:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/session/abstract/id.rb:195:in `context'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/session/abstract/id.rb:190:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/cookies.rb:331:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/sendfile.rb:101:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.1.1/lib/rails/rack/logger.rb:13:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/methodoverride.rb:24:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/runtime.rb:17:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/lock.rb:15:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/static.rb:53:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.1.1/lib/rails/engine.rb:456:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.1.1/lib/rails/rack/content_length.rb:16:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.1.1/lib/rails/rack/log_tailer.rb:14:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/handler/webrick.rb:59:in `service'
+/home/nick/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/home/nick/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/home/nick/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered vendors/index.html.erb within layouts/application (4.6ms)
+Completed 500 Internal Server Error in 386ms
+
+ActionView::Template::Error (/home/nick/projects/SpecialMenu/app/views/vendors/index.html.erb:10: syntax error, unexpected keyword_end
+');@output_buffer.append= ( end );@output_buffer.safe_concat('
+                               ^
+/home/nick/projects/SpecialMenu/app/views/vendors/index.html.erb:12: syntax error, unexpected keyword_ensure, expecting ')'
+/home/nick/projects/SpecialMenu/app/views/vendors/index.html.erb:14: syntax error, unexpected keyword_end, expecting ')'):
+    7: 
+    8: <%= for @vendors.each do |vendor| %>
+    9:   <%= vendor.to_json %>
+    10: <%= end %>
+  app/controllers/vendors_controller.rb:13:in `index'
+
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (12.2ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.4ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (29.9ms)
+
+
+Started GET "/vendors" for 127.0.0.1 at 2011-11-05 15:47:01 -0400
+Creating scope :near. Overwriting existing method Vendor.near.
+  Processing by VendorsController#index as HTML
+ERROR: compiling _app_views_vendors_index_html_erb__1049684412_80926570 RAISED /home/nick/projects/SpecialMenu/app/views/vendors/index.html.erb:10: syntax error, unexpected '\n', expecting tCOLON2 or '[' or '.'
+Function body:           def _app_views_vendors_index_html_erb__1049684412_80926570(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "vendors/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.append=  form_tag vendors_path, :method => :get do @output_buffer.safe_concat('
+');@output_buffer.safe_concat('  <p>
+    ');@output_buffer.append= ( text_field_tag :search, params[:search] );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    ');@output_buffer.append= ( submit_tag "Search Near", :name => nil );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  </p>
+'); end 
+@output_buffer.safe_concat('
+'); for @vendors.each do |vendor| 
+@output_buffer.safe_concat('  ');@output_buffer.append= ( vendor.to_json );@output_buffer.safe_concat('
+'); end 
+@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/template.rb:282:in `module_eval'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/template.rb:282:in `compile'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/template.rb:190:in `compile!'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/template.rb:143:in `block in render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/notifications.rb:55:in `instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/template.rb:142:in `render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:40:in `block (2 levels) in render_template'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `block in instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `block in instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:39:in `block in render_template'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:12:in `block in render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:17:in `render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:99:in `render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/nick/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/mime_responds.rb:268:in `block in retrieve_response_from_mimes'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/mime_responds.rb:195:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/mime_responds.rb:195:in `respond_to'
+/home/nick/projects/SpecialMenu/app/controllers/vendors_controller.rb:13:in `index'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:167:in `process_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:425:in `_run__591503030__process_action__853641457__callbacks'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `block in instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:121:in `process'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:45:in `process'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal.rb:193:in `dispatch'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal.rb:236:in `block in action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `block in call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `block in recognize'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:532:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/mongoid-2.3.3/lib/rack/mongoid/middleware/identity_map.rb:33:in `block in call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/mongoid-2.3.3/lib/mongoid.rb:132:in `unit_of_work'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/mongoid-2.3.3/lib/rack/mongoid/middleware/identity_map.rb:33:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/etag.rb:23:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/conditionalget.rb:25:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/session/abstract/id.rb:195:in `context'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/session/abstract/id.rb:190:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/cookies.rb:331:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/sendfile.rb:101:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.1.1/lib/rails/rack/logger.rb:13:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/methodoverride.rb:24:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/runtime.rb:17:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/lock.rb:15:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/static.rb:53:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.1.1/lib/rails/engine.rb:456:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.1.1/lib/rails/rack/content_length.rb:16:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.1.1/lib/rails/rack/log_tailer.rb:14:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/handler/webrick.rb:59:in `service'
+/home/nick/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/home/nick/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/home/nick/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered vendors/index.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 184ms
+
+ActionView::Template::Error (/home/nick/projects/SpecialMenu/app/views/vendors/index.html.erb:10: syntax error, unexpected '\n', expecting tCOLON2 or '[' or '.'):
+    7: 
+    8: <% for @vendors.each do |vendor| %>
+    9:   <%= vendor.to_json %>
+    10: <% end %>
+  app/controllers/vendors_controller.rb:13:in `index'
+
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (12.7ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.8ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (32.1ms)
+
+
+Started GET "/vendors" for 127.0.0.1 at 2011-11-05 15:47:43 -0400
+Creating scope :near. Overwriting existing method Vendor.near.
+  Processing by VendorsController#index as HTML
+ERROR: compiling _app_views_vendors_index_html_erb__1049684412_75331190 RAISED /home/nick/projects/SpecialMenu/app/views/vendors/index.html.erb:10: syntax error, unexpected '\n', expecting tCOLON2 or '[' or '.'
+Function body:           def _app_views_vendors_index_html_erb__1049684412_75331190(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "vendors/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.append=  form_tag vendors_path, :method => :get do @output_buffer.safe_concat('
+');@output_buffer.safe_concat('  <p>
+    ');@output_buffer.append= ( text_field_tag :search, params[:search] );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    ');@output_buffer.append= ( submit_tag "Search Near", :name => nil );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  </p>
+'); end 
+@output_buffer.safe_concat('
+'); for @vendors.each do |vendor| 
+@output_buffer.safe_concat('  ');@output_buffer.append= ( vendor.name );@output_buffer.safe_concat('
+'); end 
+@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/template.rb:282:in `module_eval'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/template.rb:282:in `compile'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/template.rb:190:in `compile!'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/template.rb:143:in `block in render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/notifications.rb:55:in `instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/template.rb:142:in `render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:40:in `block (2 levels) in render_template'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `block in instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `block in instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:39:in `block in render_template'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:12:in `block in render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:17:in `render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:99:in `render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/nick/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/mime_responds.rb:268:in `block in retrieve_response_from_mimes'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/mime_responds.rb:195:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/mime_responds.rb:195:in `respond_to'
+/home/nick/projects/SpecialMenu/app/controllers/vendors_controller.rb:13:in `index'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:167:in `process_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:425:in `_run__591503030__process_action__853641457__callbacks'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `block in instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:121:in `process'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:45:in `process'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal.rb:193:in `dispatch'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_controller/metal.rb:236:in `block in action'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `block in call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `block in recognize'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:532:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/mongoid-2.3.3/lib/rack/mongoid/middleware/identity_map.rb:33:in `block in call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/mongoid-2.3.3/lib/mongoid.rb:132:in `unit_of_work'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/mongoid-2.3.3/lib/rack/mongoid/middleware/identity_map.rb:33:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/etag.rb:23:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/conditionalget.rb:25:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/session/abstract/id.rb:195:in `context'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/session/abstract/id.rb:190:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/cookies.rb:331:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/sendfile.rb:101:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.1.1/lib/rails/rack/logger.rb:13:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/methodoverride.rb:24:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/runtime.rb:17:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/activesupport-3.1.1/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/lock.rb:15:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/static.rb:53:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.1.1/lib/rails/engine.rb:456:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.1.1/lib/rails/rack/content_length.rb:16:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/railties-3.1.1/lib/rails/rack/log_tailer.rb:14:in `call'
+/home/nick/.rvm/gems/ruby-1.9.2-p180/gems/rack-1.3.3/lib/rack/handler/webrick.rb:59:in `service'
+/home/nick/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/home/nick/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/home/nick/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered vendors/index.html.erb within layouts/application (98.7ms)
+Completed 500 Internal Server Error in 362ms
+
+ActionView::Template::Error (/home/nick/projects/SpecialMenu/app/views/vendors/index.html.erb:10: syntax error, unexpected '\n', expecting tCOLON2 or '[' or '.'):
+    7: 
+    8: <% for @vendors.each do |vendor| %>
+    9:   <%= vendor.name %>
+    10: <% end %>
+  app/controllers/vendors_controller.rb:13:in `index'
+
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (8.6ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.4ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (25.8ms)
+
+
+Started GET "/vendors" for 127.0.0.1 at 2011-11-05 16:26:56 -0400
+Creating scope :near. Overwriting existing method Vendor.near.
+  Processing by VendorsController#index as HTML
+Rendered vendors/index.html.erb within layouts/application (8.2ms)
+Rendered shared/_navigation.html.erb (3.9ms)
+Completed 200 OK in 365ms (Views: 111.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-05 16:26:58 -0400
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-05 16:26:58 -0400
+Served asset /base.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-05 16:26:58 -0400
+Served asset /layout.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-05 16:26:58 -0400
+Served asset /skeleton.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-05 16:26:58 -0400
+Served asset /normalize.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-05 16:26:58 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-05 16:26:58 -0400
+Served asset /specials.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-05 16:26:58 -0400
+Served asset /user_sessions.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-05 16:26:58 -0400
+Served asset /users.css - 304 Not Modified (27ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-05 16:26:58 -0400
+Served asset /vendors.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-05 16:26:58 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-05 16:26:58 -0400
+Served asset /home.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-05 16:26:58 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-05 16:26:58 -0400
+Served asset /jqueryui.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-05 16:26:58 -0400
+Served asset /modernizr.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-05 16:26:58 -0400
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-05 16:26:58 -0400
+Served asset /tabs.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-05 16:26:58 -0400
+Served asset /users.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-05 16:26:58 -0400
+Served asset /user_sessions.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-05 16:26:58 -0400
+Served asset /vendors.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-05 16:26:58 -0400
+Served asset /application.js - 304 Not Modified (21ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2011-11-05 16:28:48 -0400
+  Processing by UserSessionsController#new as HTML
+Rendered user_sessions/_form.html.erb (11.5ms)
+Rendered user_sessions/new.html.erb within layouts/application (18.5ms)
+Rendered shared/_navigation.html.erb (3.7ms)
+Completed 200 OK in 579ms (Views: 123.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-05 16:28:49 -0400
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-05 16:28:49 -0400
+Served asset /base.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-05 16:28:49 -0400
+Served asset /layout.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-05 16:28:49 -0400
+Served asset /normalize.css - 304 Not Modified (60ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-05 16:28:49 -0400
+Served asset /user_sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-05 16:28:49 -0400
+Served asset /skeleton.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-05 16:28:49 -0400
+Served asset /specials.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-05 16:28:50 -0400
+Served asset /users.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-05 16:28:50 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-05 16:28:50 -0400
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-05 16:28:50 -0400
+Served asset /vendors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-05 16:28:50 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-05 16:28:50 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-05 16:28:50 -0400
+Served asset /jqueryui.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-05 16:28:50 -0400
+Served asset /modernizr.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-05 16:28:50 -0400
+Served asset /tabs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-05 16:28:50 -0400
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-05 16:28:50 -0400
+Served asset /user_sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-05 16:28:50 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-05 16:28:50 -0400
+Served asset /vendors.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-05 16:28:50 -0400
+Served asset /application.js - 304 Not Modified (21ms)
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2011-11-05 16:29:06 -0400
+  Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UfGKaP1HZQPKaJs9YfMVc8Zu+2l3lJU6tCSL0shQLfw=", "username"=>"nickpoorman@gmail.com", "password"=>"[FILTERED]", "commit"=>"Login"}
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['$cmd'].find({:create=>"users"})
+MONGODB zapwire_development['users'].find({:email=>"nickpoorman@gmail.com"}).sort([[:_id, :asc]])
+MONGODB zapwire_development['users'].find({:email=>"nickpoorman@gmail.com"}).sort([[:_id, :asc]])
+Rendered user_sessions/_form.html.erb (8.8ms)
+Rendered user_sessions/new.html.erb within layouts/application (14.8ms)
+Rendered shared/_navigation.html.erb (5.1ms)
+Completed 200 OK in 286ms (Views: 113.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:07 -0400
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:07 -0400
+Served asset /base.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:07 -0400
+Served asset /skeleton.css - 304 Not Modified (56ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:07 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:07 -0400
+Served asset /normalize.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:07 -0400
+Served asset /user_sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:07 -0400
+Served asset /layout.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:07 -0400
+Served asset /specials.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:07 -0400
+Served asset /vendors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:07 -0400
+Served asset /users.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:07 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:07 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:07 -0400
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:07 -0400
+Served asset /jqueryui.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:07 -0400
+Served asset /modernizr.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:07 -0400
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:07 -0400
+Served asset /tabs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:07 -0400
+Served asset /user_sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:07 -0400
+Served asset /users.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:07 -0400
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:07 -0400
+Served asset /application.js - 304 Not Modified (19ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2011-11-05 16:29:11 -0400
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.erb (38.0ms)
+Rendered users/new.html.erb within layouts/application (46.2ms)
+Rendered shared/_navigation.html.erb (5.3ms)
+Completed 200 OK in 165ms (Views: 161.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:12 -0400
+Served asset /application.css - 304 Not Modified (32ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:12 -0400
+Served asset /base.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:12 -0400
+Served asset /layout.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:12 -0400
+Served asset /normalize.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:12 -0400
+Served asset /scaffolds.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:12 -0400
+Served asset /users.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:12 -0400
+Served asset /user_sessions.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:12 -0400
+Served asset /specials.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:12 -0400
+Served asset /skeleton.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:12 -0400
+Served asset /vendors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:12 -0400
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:12 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:12 -0400
+Served asset /home.js - 304 Not Modified (32ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:12 -0400
+Served asset /jqueryui.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:12 -0400
+Served asset /specials.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:12 -0400
+Served asset /modernizr.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:12 -0400
+Served asset /tabs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:12 -0400
+Served asset /user_sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:12 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:13 -0400
+Served asset /vendors.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:13 -0400
+Served asset /application.js - 304 Not Modified (27ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-11-05 16:29:28 -0400
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UfGKaP1HZQPKaJs9YfMVc8Zu+2l3lJU6tCSL0shQLfw=", "user"=>{"email"=>"nickpoorman@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['$cmd'].find({"count"=>"users", "query"=>{:email=>"nickpoorman@gmail.com"}, "fields"=>nil})
+MONGODB zapwire_development['users'].insert([{"email"=>"nickpoorman@gmail.com", "_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003'), "salt"=>"8PHViY8Gf4MvcVz735Po", "crypted_password"=>"$2a$10$gSopoYciMlML9XOniLMhAOIiLJ42ywE1FvAOjEbitk11aqNru8edK"}])
+Redirected to http://localhost:3000/
+Completed 302 Found in 509ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-05 16:29:29 -0400
+  Processing by UsersController#index as HTML
+Rendered user_sessions/_form.html.erb (9.0ms)
+Rendered users/index.html.erb within layouts/application (15.3ms)
+Rendered shared/_navigation.html.erb (6.6ms)
+Completed 200 OK in 148ms (Views: 144.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:30 -0400
+Served asset /application.css - 304 Not Modified (30ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:30 -0400
+Served asset /base.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:30 -0400
+Served asset /layout.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:30 -0400
+Served asset /normalize.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:30 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:30 -0400
+Served asset /skeleton.css - 304 Not Modified (34ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:31 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:31 -0400
+Served asset /specials.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:31 -0400
+Served asset /user_sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:31 -0400
+Served asset /vendors.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:31 -0400
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:31 -0400
+Served asset /modernizr.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:31 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:31 -0400
+Served asset /home.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:31 -0400
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:31 -0400
+Served asset /jqueryui.js - 304 Not Modified (37ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:31 -0400
+Served asset /tabs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:31 -0400
+Served asset /user_sessions.js - 304 Not Modified (174ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:31 -0400
+Served asset /users.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:31 -0400
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:31 -0400
+Served asset /application.js - 304 Not Modified (20ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2011-11-05 16:29:41 -0400
+  Processing by UserSessionsController#new as HTML
+Rendered user_sessions/_form.html.erb (6.9ms)
+Rendered user_sessions/new.html.erb within layouts/application (11.6ms)
+Rendered shared/_navigation.html.erb (3.1ms)
+Completed 200 OK in 259ms (Views: 108.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:42 -0400
+Served asset /application.css - 304 Not Modified (79ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:42 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:42 -0400
+Served asset /layout.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:42 -0400
+Served asset /skeleton.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:42 -0400
+Served asset /base.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:42 -0400
+Served asset /normalize.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:42 -0400
+Served asset /specials.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:42 -0400
+Served asset /user_sessions.css - 304 Not Modified (27ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:43 -0400
+Served asset /vendors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:43 -0400
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:43 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:43 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:43 -0400
+Served asset /users.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:43 -0400
+Served asset /jqueryui.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:43 -0400
+Served asset /modernizr.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:43 -0400
+Served asset /specials.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:43 -0400
+Served asset /tabs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:43 -0400
+Served asset /user_sessions.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:43 -0400
+Served asset /users.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:43 -0400
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:43 -0400
+Served asset /application.js - 304 Not Modified (16ms)
+
+
+Started POST "/user_sessions" for 127.0.0.1 at 2011-11-05 16:29:50 -0400
+  Processing by UserSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UfGKaP1HZQPKaJs9YfMVc8Zu+2l3lJU6tCSL0shQLfw=", "username"=>"nickpoorman@gmail.com", "password"=>"[FILTERED]", "commit"=>"Login"}
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:email=>"nickpoorman@gmail.com"}).sort([[:_id, :asc]])
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_login_at"=>2011-11-05 20:29:51 UTC}})
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"failed_logins_count"=>0}})
+Redirected to http://localhost:3000/vendors
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-05 20:29:51 UTC}})
+Completed 302 Found in 668ms
+
+
+Started GET "/vendors" for 127.0.0.1 at 2011-11-05 16:29:51 -0400
+Creating scope :near. Overwriting existing method Vendor.near.
+  Processing by VendorsController#index as HTML
+Rendered vendors/index.html.erb within layouts/application (5.6ms)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+Rendered shared/_navigation.html.erb (264.1ms)
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-05 20:29:52 UTC}})
+Completed 200 OK in 531ms (Views: 373.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:52 -0400
+Served asset /application.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:53 -0400
+Served asset /layout.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:53 -0400
+Served asset /normalize.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:53 -0400
+Served asset /base.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:53 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:53 -0400
+Served asset /specials.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:53 -0400
+Served asset /user_sessions.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:53 -0400
+Served asset /skeleton.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:53 -0400
+Served asset /jquery.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:53 -0400
+Served asset /vendors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-05 16:29:53 -0400
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:53 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:53 -0400
+Served asset /home.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:53 -0400
+Served asset /jqueryui.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:53 -0400
+Served asset /modernizr.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:53 -0400
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:53 -0400
+Served asset /tabs.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:53 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:53 -0400
+Served asset /user_sessions.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:53 -0400
+Served asset /application.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-05 16:29:53 -0400
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/vendors" for 127.0.0.1 at 2011-11-05 16:31:43 -0400
+Creating scope :near. Overwriting existing method Vendor.near.
+  Processing by VendorsController#index as HTML
+Rendered vendors/index.html.erb within layouts/application (4.6ms)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+Rendered shared/_navigation.html.erb (257.8ms)
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-05 20:31:43 UTC}})
+Completed 200 OK in 364ms (Views: 357.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-05 16:31:44 -0400
+Served asset /application.css - 304 Not Modified (74ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-05 16:31:44 -0400
+Served asset /base.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-05 16:31:44 -0400
+Served asset /layout.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-05 16:31:44 -0400
+Served asset /skeleton.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-05 16:31:44 -0400
+Served asset /normalize.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-05 16:31:44 -0400
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-05 16:31:44 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-05 16:31:44 -0400
+Served asset /vendors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-05 16:31:44 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-05 16:31:44 -0400
+Served asset /specials.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-05 16:31:44 -0400
+Served asset /user_sessions.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-05 16:31:44 -0400
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-05 16:31:44 -0400
+Served asset /jqueryui.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-05 16:31:44 -0400
+Served asset /home.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-05 16:31:44 -0400
+Served asset /modernizr.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-05 16:31:44 -0400
+Served asset /tabs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-05 16:31:44 -0400
+Served asset /specials.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-05 16:31:44 -0400
+Served asset /user_sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-05 16:31:44 -0400
+Served asset /users.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-05 16:31:44 -0400
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-05 16:31:44 -0400
+Served asset /application.js - 304 Not Modified (27ms)
+
+
+Started GET "/vendors" for 127.0.0.1 at 2011-11-05 16:31:50 -0400
+Creating scope :near. Overwriting existing method Vendor.near.
+  Processing by VendorsController#index as HTML
+Rendered vendors/index.html.erb within layouts/application (6.9ms)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+Rendered shared/_navigation.html.erb (343.4ms)
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-05 20:31:51 UTC}})
+Completed 200 OK in 486ms (Views: 477.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-05 16:31:51 -0400
+Served asset /application.css - 200 OK (23ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-05 16:31:51 -0400
+Served asset /layout.css - 200 OK (6ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-05 16:31:51 -0400
+Served asset /base.css - 200 OK (8ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-05 16:31:51 -0400
+Served asset /normalize.css - 200 OK (8ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-05 16:31:51 -0400
+Served asset /scaffolds.css - 200 OK (16ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-05 16:31:51 -0400
+Served asset /skeleton.css - 200 OK (5ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-05 16:31:51 -0400
+Served asset /specials.css - 200 OK (2ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-05 16:31:51 -0400
+Served asset /user_sessions.css - 200 OK (60ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-05 16:31:51 -0400
+Served asset /users.css - 200 OK (28ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-05 16:31:51 -0400
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-05 16:31:51 -0400
+Served asset /home.js - 200 OK (27ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-05 16:31:52 -0400
+Served asset /vendors.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-05 16:31:52 -0400
+Served asset /jquery_ujs.js - 200 OK (20ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-05 16:31:52 -0400
+Served asset /jqueryui.js - 200 OK (16ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-05 16:31:52 -0400
+Served asset /modernizr.js - 200 OK (2ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-05 16:31:52 -0400
+Served asset /specials.js - 200 OK (1ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-05 16:31:52 -0400
+Served asset /tabs.js - 200 OK (2ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-05 16:31:52 -0400
+Served asset /user_sessions.js - 200 OK (5ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-05 16:31:52 -0400
+Served asset /users.js - 200 OK (7ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-05 16:31:52 -0400
+Served asset /vendors.js - 200 OK (19ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-05 16:31:52 -0400
+Served asset /application.js - 200 OK (23ms)
+
+
+Started GET "/vendors" for 127.0.0.1 at 2011-11-05 16:32:59 -0400
+Creating scope :near. Overwriting existing method Vendor.near.
+  Processing by VendorsController#index as HTML
+Rendered vendors/index.html.erb within layouts/application (4.9ms)
+Completed 500 Internal Server Error in 29ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    9:     <th></th>
+    10:   </tr>
+    11: 
+    12: <% @vendors.each do |vendor| %>
+    13:   <tr>
+    14:     <td><%= vendor.gid %></td>
+    15:     <td><%= vendor.name %></td>
+  app/views/vendors/index.html.erb:12:in `_app_views_vendors_index_html_erb__1049684412_82812300'
+  app/controllers/vendors_controller.rb:13:in `index'
+
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.0ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.2ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (24.0ms)
+
+
+Started GET "/vendors" for 127.0.0.1 at 2011-11-05 16:33:10 -0400
+Creating scope :near. Overwriting existing method Vendor.near.
+  Processing by VendorsController#index as HTML
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['vendors'].find({})
+Rendered vendors/index.html.erb within layouts/application (7.5ms)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+Rendered shared/_navigation.html.erb (199.8ms)
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-05 20:33:11 UTC}})
+Completed 200 OK in 364ms (Views: 347.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-05 16:33:11 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
