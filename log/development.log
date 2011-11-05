@@ -116,3 +116,190 @@ MONGODB admin['$cmd'].find({:ismaster=>1})
 MongoDB logging. Please note that logging negatively impacts performance and should be disabled for high-performance production apps.
 MONGODB admin['$cmd'].find({:ismaster=>1})
 MONGODB admin['$cmd'].find({:ismaster=>1})
+MongoDB logging. Please note that logging negatively impacts performance and should be disabled for high-performance production apps.
+MONGODB admin['$cmd'].find({:ismaster=>1})
+MONGODB admin['$cmd'].find({:ismaster=>1})
+MongoDB logging. Please note that logging negatively impacts performance and should be disabled for high-performance production apps.
+MONGODB admin['$cmd'].find({:ismaster=>1})
+MONGODB admin['$cmd'].find({:ismaster=>1})
+MongoDB logging. Please note that logging negatively impacts performance and should be disabled for high-performance production apps.
+MONGODB admin['$cmd'].find({:ismaster=>1})
+MONGODB admin['$cmd'].find({:ismaster=>1})
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-05 13:41:17 -0400
+  Processing by UsersController#index as HTML
+Rendered user_sessions/_form.html.erb (103.9ms)
+Rendered users/index.html.erb within layouts/application (311.6ms)
+Compiled application.css  (46ms)  (pid 5175)
+Compiled specials.css  (36ms)  (pid 5175)
+Compiled vendors.css  (7ms)  (pid 5175)
+Compiled application.js  (70ms)  (pid 5175)
+Compiled specials.js  (487ms)  (pid 5175)
+Compiled vendors.js  (12ms)  (pid 5175)
+Rendered shared/_navigation.html.erb (7.8ms)
+Completed 200 OK in 2001ms (Views: 1997.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-05 13:41:21 -0400
+Served asset /application.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-05 13:41:21 -0400
+Served asset /scaffolds.css - 304 Not Modified (36ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-05 13:41:21 -0400
+Served asset /base.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-05 13:41:21 -0400
+Served asset /normalize.css - 304 Not Modified (33ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-05 13:41:21 -0400
+Served asset /skeleton.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-05 13:41:21 -0400
+Served asset /specials.css - 200 OK (14ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-05 13:41:21 -0400
+Served asset /layout.css - 304 Not Modified (26ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-05 13:41:21 -0400
+Served asset /user_sessions.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-05 13:41:21 -0400
+Served asset /users.css - 304 Not Modified (32ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-05 13:41:22 -0400
+Served asset /vendors.css - 200 OK (33ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-05 13:41:22 -0400
+Served asset /jquery.js - 304 Not Modified (47ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-05 13:41:22 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (37ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-05 13:41:22 -0400
+Served asset /jqueryui.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-05 13:41:22 -0400
+Served asset /home.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-05 13:41:22 -0400
+Served asset /modernizr.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-05 13:41:22 -0400
+Served asset /specials.js - 200 OK (33ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-05 13:41:22 -0400
+Served asset /tabs.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-05 13:41:22 -0400
+Served asset /user_sessions.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-05 13:41:22 -0400
+Served asset /vendors.js - 200 OK (13ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-05 13:41:22 -0400
+Served asset /users.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-05 13:41:22 -0400
+Served asset /application.js - 200 OK (17ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2011-11-05 13:41:36 -0400
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.erb (36.1ms)
+Rendered users/new.html.erb within layouts/application (44.5ms)
+Rendered shared/_navigation.html.erb (4.8ms)
+Completed 200 OK in 154ms (Views: 150.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-05 13:41:37 -0400
+Served asset /application.css - 304 Not Modified (83ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-05 13:41:37 -0400
+Served asset /layout.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-05 13:41:37 -0400
+Served asset /base.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-05 13:41:37 -0400
+Served asset /normalize.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-05 13:41:37 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-05 13:41:37 -0400
+Served asset /skeleton.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-05 13:41:37 -0400
+Served asset /user_sessions.css - 304 Not Modified (24ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-05 13:41:37 -0400
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-05 13:41:37 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-05 13:41:37 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (143ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-05 13:41:37 -0400
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-05 13:41:37 -0400
+Served asset /jqueryui.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-05 13:41:37 -0400
+Served asset /tabs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-05 13:41:37 -0400
+Served asset /modernizr.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-05 13:41:37 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-05 13:41:38 -0400
+Served asset /user_sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/vendor" for 127.0.0.1 at 2011-11-05 13:42:15 -0400
+
+ActionController::RoutingError (No route matches [GET] "/vendor"):
+  
+
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.3ms)

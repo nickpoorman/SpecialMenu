@@ -1,5 +1,7 @@
 Zapwire::Application.routes.draw do
 
+  resources :vendors
+
   resources :specials
 
   #root :to => "home#index"
