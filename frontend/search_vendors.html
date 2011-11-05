@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8' />
+	</head>
+	<body>
+		<form name='search_vendors' id='search_vendors'>
+			<label for='vendor_query'>Search for vendors</label>
+			<input type='text' name='vendor_query' id='vendor_query'/>
+			<input type='submit' value='Search' />
+		</form>
+		<form name id='results'>
+			<select>
+			<select>
+		</form>
+		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js'></script>  
+		<script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+			<script>
+			window.jQuery;	
+			$(function () {
+				var results = $('#results select');
+
+				$('#search_vendors').submit(function (e) {
+					var query = ['https://maps.googleapis.com/maps/api/place/autocomplete/json?',
+								'input: ' + $('#vendor_query').text(),
+								'sensor: false',
+								'key: AIzaSyCwVcNbSI2lODglk_2u2DlaLITmj4l2UWA'].join();
+
+					$.get(query, function (data) {
+						var locations = data.predictions, i, loc;
+						for (i = 0; i < locations.length; i++) {
+							loc = $('<input/>', { name: 'vendors', value: locations[i].reference, text: locations[i].description });
+							results.addChild(loc);
+						}
+					});
+					return false;
+				});
+			});
+		</script>
+	</body>
+</html>
