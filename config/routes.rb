@@ -1,5 +1,7 @@
 Zapwire::Application.routes.draw do
 
+  resources :specials
+
   #root :to => "home#index"
   root :to => "users#index"
 
