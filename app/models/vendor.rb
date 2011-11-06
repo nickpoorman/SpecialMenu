@@ -5,6 +5,11 @@ class Vendor
   field :name, :type => String
   field :coordinates, :type => Array
   field :address, :type => String
+  field :phone, :type => String
+
+  validates_presence_of :name
+  validates_presence_of :address
+  validates_presence_of :phone
 
   geocoded_by :address               # can also be an IP address
   after_validation :geocode          # auto-fetch coordinates

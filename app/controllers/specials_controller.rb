@@ -4,7 +4,15 @@ class SpecialsController < ApplicationController
   # GET /specials
   # GET /specials.json
   def index
-    @specials = Special.all
+    # index should take a param 
+    if params[:lat].present? && params[:lon].present?
+      # need all the vendors near first
+      #@vendors = Vendor.near([params[:lat], params[:lon]], 20)
+      tmpv = Vendor.new
+      tmpv.coordinates = [43.044643,-76.149816]
+      @vendors = tmpv.near(20)
+      #@specials = Special.all
+    end
 
     respond_to do |format|
       format.html # index.html.erb

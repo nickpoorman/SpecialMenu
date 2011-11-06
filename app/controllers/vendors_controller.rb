@@ -4,15 +4,7 @@ class VendorsController < ApplicationController
   # GET /vendors
   # GET /vendors.json
   def index
-#    if params[:latitude].present? && params[:longitude].present? && params[:radius].present?
-#        @vendors = Vendor.near([params[:latitude],params[:longitude]], params[:radius])
-#        @vendors = Vendor.near(params[:search]) 
-#         @cord = Geocoder.coordinates("25 Main St, Cooperstown, NY")
-#    else
-        ##TODO: Will most likely need to change this to only display the users vendor
-#        @vendors = Vendor.all
-        @vendors = Vendor.where()
-#    end
+    @vendors = current_user.vendors.all.to_a
 
     respond_to do |format|
       format.html # index.html.erb
@@ -59,6 +51,7 @@ class VendorsController < ApplicationController
   # POST /vendors.json
   def create
     @vendor = Vendor.new(params[:vendor])
+    @vendor.user = current_user
 
     respond_to do |format|
       if @vendor.save

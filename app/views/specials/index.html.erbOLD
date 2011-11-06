@@ -1,0 +1,29 @@
+<h1>Listing specials</h1>
+
+<table>
+  <tr>
+    <th>Shortdesc</th>
+    <th>Desc</th>
+    <th>Price</th>
+    <th>Avail</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @specials.each do |special| %>
+  <tr>
+    <td><%= special.shortdesc %></td>
+    <td><%= special.desc %></td>
+    <td><%= special.price %></td>
+    <td><%= special.avail %></td>
+    <td><%= link_to 'Show', special %></td>
+    <td><%= link_to 'Edit', edit_special_path(special) %></td>
+    <td><%= link_to 'Destroy', special, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Special', new_special_path %>

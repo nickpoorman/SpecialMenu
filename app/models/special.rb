@@ -5,5 +5,5 @@ class Special
   field :price, :type => Float
   field :avail, :type => Date
 
-  embeded_in :vendor
+  embedded_in :vendor
 end

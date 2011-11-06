@@ -2,8 +2,8 @@
 
 <table>
   <tr>
+    <th>Gid</th>
     <th>Name</th>
-    <th>Address</th>
     <th></th>
     <th></th>
     <th></th>
@@ -11,8 +11,8 @@
 
 <% @vendors.each do |vendor| %>
   <tr>
+    <td><%= vendor.gid %></td>
     <td><%= vendor.name %></td>
-    <td><%= vendor.address %></td>
     <td><%= link_to 'Show', vendor %></td>
     <td><%= link_to 'Edit', edit_vendor_path(vendor) %></td>
     <td><%= link_to 'Destroy', vendor, confirm: 'Are you sure?', method: :delete %></td>

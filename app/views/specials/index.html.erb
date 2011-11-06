@@ -2,24 +2,17 @@
 
 <table>
   <tr>
-    <th>Shortdesc</th>
-    <th>Desc</th>
-    <th>Price</th>
-    <th>Avail</th>
+    <th>Name</th>
+    <th>Address</th>
     <th></th>
     <th></th>
     <th></th>
   </tr>
 
-<% @specials.each do |special| %>
+<% @vendors.each do |special| %>
   <tr>
-    <td><%= special.shortdesc %></td>
-    <td><%= special.desc %></td>
-    <td><%= special.price %></td>
-    <td><%= special.avail %></td>
-    <td><%= link_to 'Show', special %></td>
-    <td><%= link_to 'Edit', edit_special_path(special) %></td>
-    <td><%= link_to 'Destroy', special, confirm: 'Are you sure?', method: :delete %></td>
+    <td><%= special.name %></td>
+    <td><%= special.address %></td>
   </tr>
 <% end %>
 </table>
