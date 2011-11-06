@@ -24,7 +24,7 @@
 					var query = ['https://maps.googleapis.com/maps/api/place/autocomplete/json?',
 								'input: ' + $('#vendor_query').text(),
 								'sensor: false',
-								'key: AIzaSyCwVcNbSI2lODglk_2u2DlaLITmj4l2UWA'].join();
+								'key: AIzaSyCwVcNbSI2lODglk_2u2DlaLITmj4l2UWA'].join('');
 
 					$.get(query, function (data) {
 						var locations = data.predictions, i, loc;

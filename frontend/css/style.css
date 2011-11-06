@@ -91,7 +91,8 @@ small { font-size: 85%; }
 
 /* Position subscript and superscript content without affecting line-height: h5bp.com/k */
 sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
-sup { top: -0.5em; }
+/*sup { top: -0.5em; }*/
+sup { top: -0.7em; }
 sub { bottom: -0.25em; }
 
 
@@ -211,6 +212,8 @@ td { vertical-align: top; }
 /* ==|== primary styles =====================================================
    Author:
    ========================================================================== */
+
+/* GENERAL STYLES */
 body {
 	font-family: "Helvetica Neue", "Arial", sans-serif;
 	background-color:  #E9E9E9;
@@ -224,21 +227,43 @@ h1 {
 	font-size: 3em;
 }
 h2 {
-	font-size: 2.5em;
+	font-size: 2em;
 }
 h3 {
 	font-size: 1.5em;
-}
-
-#container { 
-	width: 100%;
-	overflow: hidden;
 }
 
 a {
 	color: #F7AA1D;
 	text-decoration: none;
 }
+
+label {
+	font-size: 1.5em;
+	margin: 10px 0;
+	display: block;
+}
+input {
+	border: 0px;
+	font-size: 2em;
+	padding: 10px;
+	display: block;
+	color: #434343;
+	background-color: #BCBCBC;
+}
+input[type='submit'] {
+	background-color: #F7AA1D;
+	font-weight: bold;
+	padding: 20px;
+}
+
+/* MAIN STYLES */
+
+#container { 
+	width: 100%;
+	overflow: hidden;
+}
+
 
 /* HEADER */
 header {
@@ -252,7 +277,8 @@ header {
 	text-transform: lowercase;
 	color: #E9E9E9;
 	width: 220px;
-	background: url('../img/logo_icon.png') no-repeat center right;
+	background: url('../img/logo.png') no-repeat 0 15px;
+	text-indent: -1000px;
 	line-height: .8em;
 	margin-top: -10px;
 	padding: 20px 0;
@@ -260,7 +286,6 @@ header {
 }
 
 #logo span {
-	text-color: #F7AA1D;
 	display: block;
 	clear: both;
 	font-size: 1.3em;
@@ -317,9 +342,13 @@ header {
 	color: #434343;
 }
 
+.special_title {
+	width: 75%;
+}
+
 .special_price {
 	position: absolute;
-	top: 10px;
+	top: 0;
 	right: 10px;
 	color: #3199BB;
 	font-size: 4em;
@@ -341,6 +370,9 @@ header {
 	padding-left: 10px;
 }
 
+#create_user {
+	padding: 10px;
+}
 /*
  * Media queries for responsive design https://github.com/shichuan/mobile-html5-boilerplate/wiki/The-Style
  */
