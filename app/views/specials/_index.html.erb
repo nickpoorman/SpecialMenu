@@ -1,0 +1,62 @@
+VENDORS
+<%= @cords %>
+<% @vendors.each do |vendor| %>
+  Name: <%= vendor.name %>
+<% end %>
+ENDVENDORS
+
+<content id='main_list'>
+<div class='status_bar'>
+  <p id='special_filter'>
+  Specials happening 
+  <a id='filter_time' href='#'>now</a> by 
+  <a id='filter_sort' href='#'>distance</a> near 
+  <a id='filter_loc'  href='#'>you</a>
+  </p>
+</div>
+<ul class='special_list'>
+  <li class='special'>
+  <a href='#special_info'>
+    <h2 class='special_title'>Souper Salad Combo</h2>
+    <p class='vendor_info'>
+    <span class='vendor_name'>Dave's Salad</span> -
+    <span class='vendor_dist'>1.4</span>mi
+    </p>
+    <p class='special_price'>4<sup>99</sup></p>
+  </a>
+  </li>
+</ul>
+</content>
+<content id='special_info'>
+<div class='status_bar'>
+  <a href='#main_list'>&lt;&lt;</a>       
+</div>
+<div id='selected_special'>
+  <div class='special'>
+    <a href='#special_info'>
+      <h2 class='special_title'>Souper Salad Combo</h2>
+      <p class='vendor_info'>
+      <span class='vendor_name'>Dave's Salad</span> -
+      <span class='vendor_dist'>1.4</span>mi
+      </p>
+      <p class='special_price'>4<sup>99</sup></p>
+    </a>
+  </div>
+  <p class='special_desc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum enim ac nisl. Donec adipiscing, nulla in accumsan fringilla, purus augue porttitor justo, non congue quam metus et sem.</p>
+</div>
+<div id='vendor_specials'>
+  <h3>Other specials from Bob's Burgers:</h3>
+  <ul class='special_list'>
+    <li class='special'>
+    <a href='#special_info'>
+      <h2 class='special_title'>Healthy Fruit Salad</h2>
+      <p class='vendor_info'>
+      <span class='vendor_name'>MaMa YumYum</span> -
+      <span class='vendor_dist'>1.7</span>mi
+      </p>
+      <p class='special_price'>2<sup>89</sup></p>
+    </a>
+    </li>
+  </ul>
+</div>
+</content>

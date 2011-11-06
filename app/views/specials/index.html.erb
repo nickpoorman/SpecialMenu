@@ -1,22 +1,13 @@
-<h1>Listing specials</h1>
-
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Address</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
-<% @vendors.each do |special| %>
-  <tr>
-    <td><%= special.name %></td>
-    <td><%= special.address %></td>
-  </tr>
-<% end %>
-</table>
-
-<br />
-
-<%= link_to 'New Special', new_special_path %>
+<content id='main_list'>
+  <div class='status_bar'>
+    <p id='special_filter'>
+    Specials happening 
+    <a id='filter_time' href='#'>now</a> by 
+    <a id='filter_sort' href='#'>distance</a> near 
+    <a id='filter_loc'  href='#'>you</a>
+    </p>
+  </div>
+  <ul class='special_list'>
+  </ul>
+</content>
+<script src='js/geoloc.js'></script>

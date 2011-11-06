@@ -4699,3 +4699,4588 @@ The error occurred while evaluating nil.each):
 Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (9.3ms)
 Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.5ms)
 Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (28.4ms)
+
+
+Started GET "/specials" for 127.0.0.1 at 2011-11-05 22:47:02 -0400
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (6.9ms)
+Completed 500 Internal Server Error in 37ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    22:     <th></th>
+    23:   </tr>
+    24: 
+    25: <% @vendors.each do |special| %>
+    26:   <tr>
+    27:     <td><%= special.name %></td>
+    28:     <td><%= special.address %></td>
+  app/views/specials/index.html.erb:25:in `_app_views_specials_index_html_erb___640256436_84755730'
+  app/controllers/specials_controller.rb:19:in `index'
+
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.4ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.9ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (57.2ms)
+MongoDB logging. Please note that logging negatively impacts performance and should be disabled for high-performance production apps.
+MONGODB admin['$cmd'].find({:ismaster=>1})
+MONGODB admin['$cmd'].find({:ismaster=>1})
+
+
+Started GET "/specials" for 127.0.0.1 at 2011-11-05 22:50:28 -0400
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (355.3ms)
+Completed 500 Internal Server Error in 823ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    22:     <th></th>
+    23:   </tr>
+    24: 
+    25: <% @vendors.each do |special| %>
+    26:   <tr>
+    27:     <td><%= special.name %></td>
+    28:     <td><%= special.address %></td>
+  app/views/specials/index.html.erb:25:in `_app_views_specials_index_html_erb___860416607_88944210'
+  app/controllers/specials_controller.rb:19:in `index'
+
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (10.2ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (40.4ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (65.9ms)
+
+
+Started GET "/specials" for 127.0.0.1 at 2011-11-05 22:51:32 -0400
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (1.6ms)
+Compiled application.js  (54ms)  (pid 11585)
+Compiled geoloc.js  (2ms)  (pid 11585)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+Rendered shared/_navigation.html.erb (633.5ms)
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-06 02:51:33 UTC}})
+Completed 200 OK in 1281ms (Views: 1271.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-05 22:51:34 -0400
+Served asset /application.css - 304 Not Modified (77ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-05 22:51:34 -0400
+Served asset /normalize.css - 304 Not Modified (197ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-05 22:51:35 -0400
+Served asset /layout.css - 304 Not Modified (34ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-05 22:51:35 -0400
+Served asset /scaffolds.css - 304 Not Modified (37ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-05 22:51:35 -0400
+Served asset /base.css - 304 Not Modified (36ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-05 22:51:35 -0400
+Served asset /skeleton.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-05 22:51:35 -0400
+Served asset /specials.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-05 22:51:35 -0400
+Served asset /users.css - 304 Not Modified (50ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-05 22:51:35 -0400
+Served asset /user_sessions.css - 304 Not Modified (41ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-05 22:51:35 -0400
+Served asset /vendors.css - 304 Not Modified (34ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-05 22:51:35 -0400
+Served asset /jquery.js - 304 Not Modified (59ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-05 22:51:35 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (45ms)
+
+
+Started GET "/assets/geoloc.js?body=1" for 127.0.0.1 at 2011-11-05 22:51:35 -0400
+Served asset /geoloc.js - 200 OK (30ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-05 22:51:35 -0400
+Served asset /home.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-05 22:51:35 -0400
+Served asset /jqueryui.js - 304 Not Modified (52ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-05 22:51:35 -0400
+Served asset /modernizr.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-05 22:51:35 -0400
+Served asset /specials.js - 304 Not Modified (25ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-05 22:51:35 -0400
+Served asset /tabs.js - 304 Not Modified (35ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-05 22:51:35 -0400
+Served asset /user_sessions.js - 304 Not Modified (27ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-05 22:51:35 -0400
+Served asset /users.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-05 22:51:35 -0400
+Served asset /vendors.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-05 22:51:35 -0400
+Served asset /application.js - 200 OK (21ms)
+MongoDB logging. Please note that logging negatively impacts performance and should be disabled for high-performance production apps.
+MONGODB admin['$cmd'].find({:ismaster=>1})
+MONGODB admin['$cmd'].find({:ismaster=>1})
+MongoDB logging. Please note that logging negatively impacts performance and should be disabled for high-performance production apps.
+MONGODB admin['$cmd'].find({:ismaster=>1})
+MONGODB admin['$cmd'].find({:ismaster=>1})
+
+
+Started GET "/specials" for 127.0.0.1 at 2011-11-06 10:58:51 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (130.1ms)
+Compiled application.css  (45ms)  (pid 14879)
+Compiled style.css  (2ms)  (pid 14879)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-06 15:58:54 UTC}})
+Completed 200 OK in 1721ms (Views: 1027.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 10:58:55 -0500
+Served asset /application.css - 200 OK (48ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 10:58:55 -0500
+Served asset /layout.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 10:58:55 -0500
+Served asset /base.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 10:58:55 -0500
+Served asset /normalize.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 10:58:55 -0500
+Served asset /scaffolds.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 10:58:55 -0500
+Served asset /skeleton.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 10:58:55 -0500
+Served asset /vendors.css - 304 Not Modified (48ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 10:58:55 -0500
+Served asset /user_sessions.css - 304 Not Modified (34ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 10:58:55 -0500
+Served asset /users.css - 304 Not Modified (38ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 10:58:55 -0500
+Served asset /style.css - 200 OK (15ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 10:58:55 -0500
+Served asset /specials.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 10:58:55 -0500
+Served asset /jquery.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 10:58:55 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (43ms)
+
+
+Started GET "/assets/geoloc.js?body=1" for 127.0.0.1 at 2011-11-06 10:58:55 -0500
+Served asset /geoloc.js - 304 Not Modified (25ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 10:58:55 -0500
+Served asset /home.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 10:58:55 -0500
+Served asset /modernizr.js - 304 Not Modified (29ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 10:58:55 -0500
+Served asset /jqueryui.js - 304 Not Modified (25ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 10:58:55 -0500
+Served asset /specials.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 10:58:55 -0500
+Served asset /tabs.js - 304 Not Modified (31ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 10:58:55 -0500
+Served asset /user_sessions.js - 304 Not Modified (32ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 10:58:56 -0500
+Served asset /users.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 10:58:56 -0500
+Served asset /vendors.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 10:58:56 -0500
+Served asset /application.js - 304 Not Modified (23ms)
+
+
+Started GET "/css/style.css?v=1" for 127.0.0.1 at 2011-11-06 10:58:56 -0500
+
+ActionController::RoutingError (No route matches [GET] "/css/style.css"):
+  
+
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.4ms)
+
+
+Started GET "/js/libs/modernizr-custom.js" for 127.0.0.1 at 2011-11-06 10:58:56 -0500
+
+ActionController::RoutingError (No route matches [GET] "/js/libs/modernizr-custom.js"):
+  
+
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.6ms)
+
+
+Started GET "/js/geoloc.js" for 127.0.0.1 at 2011-11-06 10:58:56 -0500
+
+ActionController::RoutingError (No route matches [GET] "/js/geoloc.js"):
+  
+
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.0ms)
+MongoDB logging. Please note that logging negatively impacts performance and should be disabled for high-performance production apps.
+MONGODB admin['$cmd'].find({:ismaster=>1})
+MONGODB admin['$cmd'].find({:ismaster=>1})
+
+
+Started GET "/specials" for 127.0.0.1 at 2011-11-06 11:04:36 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (131.9ms)
+Compiled application.js  (77ms)  (pid 15059)
+Compiled libs/modernizr-custom.js  (2ms)  (pid 15059)
+Compiled libs/respond.min.js  (2ms)  (pid 15059)
+Compiled mylibs/helper.js  (2ms)  (pid 15059)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-06 16:04:39 UTC}})
+Completed 200 OK in 1817ms (Views: 1186.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 11:04:39 -0500
+Served asset /application.css - 304 Not Modified (27ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 11:04:39 -0500
+Served asset /base.css - 304 Not Modified (45ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 11:04:39 -0500
+Served asset /layout.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 11:04:39 -0500
+Served asset /skeleton.css - 304 Not Modified (43ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 11:04:39 -0500
+Served asset /style.css - 304 Not Modified (39ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 11:04:39 -0500
+Served asset /specials.css - 304 Not Modified (34ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 11:04:40 -0500
+Served asset /normalize.css - 304 Not Modified (34ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 11:04:40 -0500
+Served asset /scaffolds.css - 304 Not Modified (32ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 11:04:40 -0500
+Served asset /user_sessions.css - 304 Not Modified (50ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 11:04:40 -0500
+Served asset /users.css - 304 Not Modified (60ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 11:04:40 -0500
+Served asset /vendors.css - 304 Not Modified (32ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 11:04:40 -0500
+Served asset /jquery.js - 304 Not Modified (50ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 11:04:40 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (52ms)
+
+
+Started GET "/assets/geoloc.js?body=1" for 127.0.0.1 at 2011-11-06 11:04:40 -0500
+Served asset /geoloc.js - 304 Not Modified (34ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 11:04:40 -0500
+Served asset /home.js - 304 Not Modified (27ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 11:04:40 -0500
+Served asset /libs/modernizr-custom.js - 200 OK (18ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 11:04:40 -0500
+Served asset /libs/respond.min.js - 200 OK (11ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 11:04:40 -0500
+Served asset /jqueryui.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 11:04:40 -0500
+Served asset /mylibs/helper.js - 200 OK (22ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 11:04:40 -0500
+Served asset /modernizr.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 11:04:40 -0500
+Served asset /specials.js - 304 Not Modified (23ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 11:04:40 -0500
+Served asset /tabs.js - 304 Not Modified (27ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 11:04:40 -0500
+Served asset /user_sessions.js - 304 Not Modified (24ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 11:04:41 -0500
+Served asset /users.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 11:04:41 -0500
+Served asset /vendors.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 11:04:41 -0500
+Served asset /application.js - 200 OK (14ms)
+
+
+Started GET "/js/geoloc.js" for 127.0.0.1 at 2011-11-06 11:04:41 -0500
+
+ActionController::RoutingError (No route matches [GET] "/js/geoloc.js"):
+  
+
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.5ms)
+
+
+Started GET "/specials" for 127.0.0.1 at 2011-11-06 11:07:23 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (0.2ms)
+Compiled application.js  (87ms)  (pid 15059)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-06 16:07:24 UTC}})
+Completed 200 OK in 716ms (Views: 520.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 11:07:25 -0500
+Served asset /application.css - 304 Not Modified (31ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 11:07:25 -0500
+Served asset /base.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 11:07:25 -0500
+Served asset /layout.css - 304 Not Modified (65ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 11:07:25 -0500
+Served asset /normalize.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 11:07:25 -0500
+Served asset /style.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 11:07:25 -0500
+Served asset /skeleton.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 11:07:25 -0500
+Served asset /scaffolds.css - 304 Not Modified (27ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 11:07:25 -0500
+Served asset /specials.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 11:07:25 -0500
+Served asset /user_sessions.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 11:07:25 -0500
+Served asset /users.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 11:07:25 -0500
+Served asset /vendors.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 11:07:25 -0500
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 11:07:25 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 11:07:25 -0500
+Served asset /home.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 11:07:25 -0500
+Served asset /jqueryui.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 11:07:25 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 11:07:25 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 11:07:25 -0500
+Served asset /modernizr.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 11:07:25 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 11:07:25 -0500
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 11:07:25 -0500
+Served asset /tabs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 11:07:26 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 11:07:26 -0500
+Served asset /user_sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 11:07:26 -0500
+Served asset /application.js - 200 OK (21ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 11:07:26 -0500
+Served asset /vendors.js - 304 Not Modified (0ms)
+MongoDB logging. Please note that logging negatively impacts performance and should be disabled for high-performance production apps.
+MONGODB admin['$cmd'].find({:ismaster=>1})
+MONGODB admin['$cmd'].find({:ismaster=>1})
+
+
+Started GET "/specials" for 127.0.0.1 at 2011-11-06 11:09:36 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (132.9ms)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-06 16:09:38 UTC}})
+Completed 200 OK in 1291ms (Views: 803.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 11:09:39 -0500
+Served asset /application.css - 304 Not Modified (143ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 11:09:39 -0500
+Served asset /base.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 11:09:39 -0500
+Served asset /layout.css - 304 Not Modified (67ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 11:09:39 -0500
+Served asset /scaffolds.css - 304 Not Modified (35ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 11:09:39 -0500
+Served asset /style.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 11:09:39 -0500
+Served asset /skeleton.css - 304 Not Modified (39ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 11:09:39 -0500
+Served asset /normalize.css - 304 Not Modified (30ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 11:09:39 -0500
+Served asset /specials.css - 304 Not Modified (36ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 11:09:39 -0500
+Served asset /user_sessions.css - 304 Not Modified (33ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 11:09:40 -0500
+Served asset /users.css - 304 Not Modified (51ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 11:09:40 -0500
+Served asset /vendors.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 11:09:40 -0500
+Served asset /jquery.js - 304 Not Modified (44ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 11:09:40 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (44ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 11:09:40 -0500
+Served asset /home.js - 304 Not Modified (32ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 11:09:40 -0500
+Served asset /jqueryui.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 11:09:40 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 11:09:40 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 11:09:40 -0500
+Served asset /modernizr.js - 304 Not Modified (29ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 11:09:40 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 11:09:40 -0500
+Served asset /specials.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 11:09:40 -0500
+Served asset /tabs.js - 304 Not Modified (23ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 11:09:40 -0500
+Served asset /user_sessions.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 11:09:40 -0500
+Served asset /users.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 11:09:40 -0500
+Served asset /vendors.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 11:09:40 -0500
+Served asset /application.js - 304 Not Modified (22ms)
+
+
+Started GET "/specials" for 127.0.0.1 at 2011-11-06 11:10:58 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (1.5ms)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-06 16:10:58 UTC}})
+Completed 200 OK in 344ms (Views: 202.8ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 11:10:59 -0500
+Served asset /base.css - 304 Not Modified (43ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 11:10:59 -0500
+Served asset /layout.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 11:10:59 -0500
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 11:10:59 -0500
+Served asset /normalize.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 11:10:59 -0500
+Served asset /skeleton.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 11:10:59 -0500
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 11:10:59 -0500
+Served asset /style.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 11:10:59 -0500
+Served asset /vendors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 11:10:59 -0500
+Served asset /user_sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 11:10:59 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 11:10:59 -0500
+Served asset /specials.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 11:10:59 -0500
+Served asset /users.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 11:10:59 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 11:10:59 -0500
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 11:10:59 -0500
+Served asset /jqueryui.js - 304 Not Modified (41ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 11:10:59 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 11:10:59 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 11:10:59 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 11:10:59 -0500
+Served asset /modernizr.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 11:10:59 -0500
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 11:10:59 -0500
+Served asset /user_sessions.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 11:10:59 -0500
+Served asset /tabs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 11:10:59 -0500
+Served asset /users.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 11:10:59 -0500
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 11:10:59 -0500
+Served asset /application.js - 304 Not Modified (30ms)
+
+
+Started GET "/specials?lat=43.0446459&lon=-76.14987359999999" for 127.0.0.1 at 2011-11-06 11:11:01 -0500
+  Processing by SpecialsController#index as */*
+  Parameters: {"lat"=>"43.0446459", "lon"=>"-76.14987359999999"}
+Creating scope :near. Overwriting existing method Vendor.near.
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['vendors'].find({:coordinates=>{"$nearSphere"=>["43.0446459", "-76.14987359999999"], "$maxDistance"=>0.005052092295133236}, :_id=>{"$ne"=>BSON::ObjectId('4eb6b1951f951e3b7c000001')}})
+Rendered specials/index.html.erb within layouts/application (0.1ms)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-06 16:11:01 UTC}})
+Completed 200 OK in 464ms (Views: 83.1ms)
+
+
+Started GET "/specials" for 127.0.0.1 at 2011-11-06 11:12:38 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (1.7ms)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-06 16:12:38 UTC}})
+Completed 200 OK in 506ms (Views: 303.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 11:12:40 -0500
+Served asset /application.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 11:12:40 -0500
+Served asset /base.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 11:12:40 -0500
+Served asset /skeleton.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 11:12:40 -0500
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 11:12:40 -0500
+Served asset /normalize.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 11:12:40 -0500
+Served asset /style.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 11:12:40 -0500
+Served asset /layout.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 11:12:40 -0500
+Served asset /specials.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 11:12:40 -0500
+Served asset /user_sessions.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 11:12:40 -0500
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 11:12:40 -0500
+Served asset /vendors.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 11:12:40 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 11:12:40 -0500
+Served asset /home.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 11:12:40 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 11:12:40 -0500
+Served asset /jqueryui.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 11:12:40 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 11:12:40 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 11:12:40 -0500
+Served asset /modernizr.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 11:12:40 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 11:12:40 -0500
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 11:12:40 -0500
+Served asset /tabs.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 11:12:40 -0500
+Served asset /user_sessions.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 11:12:41 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 11:12:41 -0500
+Served asset /vendors.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 11:12:41 -0500
+Served asset /application.js - 304 Not Modified (19ms)
+
+
+Started GET "/specials?lat=43.0446459&lon=-76.14987359999999" for 127.0.0.1 at 2011-11-06 11:12:44 -0500
+  Processing by SpecialsController#index as */*
+  Parameters: {"lat"=>"43.0446459", "lon"=>"-76.14987359999999"}
+Creating scope :near. Overwriting existing method Vendor.near.
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['vendors'].find({:coordinates=>{"$nearSphere"=>["43.0446459", "-76.14987359999999"], "$maxDistance"=>0.005052092295133236}, :_id=>{"$ne"=>BSON::ObjectId('4eb6b1fd1f951e3b7c000002')}})
+Rendered specials/index.html.erb within layouts/application (0.2ms)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-06 16:12:45 UTC}})
+Completed 200 OK in 554ms (Views: 121.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-06 11:16:50 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (0.1ms)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-06 16:16:50 UTC}})
+Completed 200 OK in 344ms (Views: 109.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 11:16:51 -0500
+Served asset /application.css - 200 OK (16ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 11:16:51 -0500
+Served asset /layout.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 11:16:51 -0500
+Served asset /base.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 11:16:51 -0500
+Served asset /user_sessions.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 11:16:51 -0500
+Served asset /normalize.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 11:16:51 -0500
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 11:16:51 -0500
+Served asset /skeleton.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 11:16:51 -0500
+Served asset /specials.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 11:16:51 -0500
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 11:16:51 -0500
+Served asset /users.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 11:16:51 -0500
+Served asset /vendors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 11:16:51 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 11:16:51 -0500
+Served asset /home.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 11:16:52 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 11:16:52 -0500
+Served asset /jqueryui.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 11:16:52 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 11:16:52 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 11:16:52 -0500
+Served asset /modernizr.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 11:16:52 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 11:16:52 -0500
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 11:16:52 -0500
+Served asset /tabs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 11:16:52 -0500
+Served asset /user_sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 11:16:52 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 11:16:52 -0500
+Served asset /vendors.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 11:16:52 -0500
+Served asset /application.js - 304 Not Modified (25ms)
+
+
+Started GET "/specials?lat=43.0446459&lon=-76.14987359999999" for 127.0.0.1 at 2011-11-06 11:16:55 -0500
+  Processing by SpecialsController#index as */*
+  Parameters: {"lat"=>"43.0446459", "lon"=>"-76.14987359999999"}
+Creating scope :near. Overwriting existing method Vendor.near.
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['vendors'].find({:coordinates=>{"$nearSphere"=>["43.0446459", "-76.14987359999999"], "$maxDistance"=>0.005052092295133236}, :_id=>{"$ne"=>BSON::ObjectId('4eb6b2f71f951e3b7c000003')}})
+Rendered specials/_index.html.erb (2.9ms)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-06 16:16:56 UTC}})
+Completed 200 OK in 560ms (Views: 105.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-06 11:27:12 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (1.9ms)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-06 16:27:12 UTC}})
+Completed 200 OK in 395ms (Views: 121.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 11:27:13 -0500
+Served asset /application.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 11:27:13 -0500
+Served asset /base.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 11:27:13 -0500
+Served asset /layout.css - 304 Not Modified (66ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 11:27:13 -0500
+Served asset /specials.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 11:27:13 -0500
+Served asset /style.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 11:27:13 -0500
+Served asset /scaffolds.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 11:27:13 -0500
+Served asset /normalize.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 11:27:13 -0500
+Served asset /skeleton.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 11:27:14 -0500
+Served asset /user_sessions.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 11:27:14 -0500
+Served asset /vendors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 11:27:14 -0500
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 11:27:14 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 11:27:14 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 11:27:14 -0500
+Served asset /home.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 11:27:14 -0500
+Served asset /jqueryui.js - 304 Not Modified (23ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 11:27:14 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 11:27:14 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 11:27:14 -0500
+Served asset /modernizr.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 11:27:14 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 11:27:14 -0500
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 11:27:14 -0500
+Served asset /tabs.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 11:27:14 -0500
+Served asset /user_sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 11:27:14 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 11:27:14 -0500
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 11:27:14 -0500
+Served asset /application.js - 304 Not Modified (31ms)
+
+
+Started GET "/specials?lat=43.0446459&lon=-76.14987359999999" for 127.0.0.1 at 2011-11-06 11:27:17 -0500
+  Processing by SpecialsController#index as */*
+  Parameters: {"lat"=>"43.0446459", "lon"=>"-76.14987359999999"}
+Creating scope :near. Overwriting existing method Vendor.near.
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['vendors'].find({:coordinates=>{"$nearSphere"=>["43.0446459", "-76.14987359999999"], "$maxDistance"=>0.005052092295133236}, :_id=>{"$ne"=>BSON::ObjectId('4eb6b5651f951e3b7c000004')}})
+Rendered specials/_index.html.erb (2.1ms)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-06 16:27:17 UTC}})
+Completed 200 OK in 343ms (Views: 15.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-06 11:28:42 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (0.2ms)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-06 16:28:43 UTC}})
+Completed 200 OK in 474ms (Views: 166.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 11:28:45 -0500
+Served asset /application.css - 304 Not Modified (31ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 11:28:45 -0500
+Served asset /base.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 11:28:45 -0500
+Served asset /layout.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 11:28:45 -0500
+Served asset /skeleton.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 11:28:45 -0500
+Served asset /specials.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 11:28:45 -0500
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 11:28:45 -0500
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 11:28:45 -0500
+Served asset /normalize.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 11:28:45 -0500
+Served asset /user_sessions.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 11:28:45 -0500
+Served asset /users.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 11:28:45 -0500
+Served asset /vendors.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 11:28:45 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 11:28:45 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 11:28:45 -0500
+Served asset /jqueryui.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 11:28:45 -0500
+Served asset /home.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 11:28:45 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 11:28:45 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 11:28:45 -0500
+Served asset /modernizr.js - 304 Not Modified (31ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 11:28:45 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 11:28:45 -0500
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 11:28:46 -0500
+Served asset /tabs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 11:28:46 -0500
+Served asset /user_sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 11:28:46 -0500
+Served asset /users.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 11:28:46 -0500
+Served asset /vendors.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 11:28:46 -0500
+Served asset /application.js - 304 Not Modified (21ms)
+
+
+Started GET "/specials?lat=43.0446459&lon=-76.14987359999999" for 127.0.0.1 at 2011-11-06 11:28:49 -0500
+  Processing by SpecialsController#index as */*
+  Parameters: {"lat"=>"43.0446459", "lon"=>"-76.14987359999999"}
+Creating scope :near. Overwriting existing method Vendor.near.
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['vendors'].find({:coordinates=>{"$nearSphere"=>["43.0446459", "-76.14987359999999"], "$maxDistance"=>0.005052092295133236}, :_id=>{"$ne"=>BSON::ObjectId('4eb6b5c11f951e3b7c000005')}})
+Rendered specials/_index.html.erb (3.8ms)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-06 16:28:49 UTC}})
+Completed 200 OK in 519ms (Views: 36.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-06 11:30:21 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (0.2ms)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-06 16:30:22 UTC}})
+Completed 200 OK in 299ms (Views: 126.3ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 11:30:23 -0500
+Served asset /layout.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 11:30:23 -0500
+Served asset /application.css - 304 Not Modified (24ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 11:30:23 -0500
+Served asset /base.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 11:30:23 -0500
+Served asset /normalize.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 11:30:23 -0500
+Served asset /scaffolds.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 11:30:23 -0500
+Served asset /skeleton.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 11:30:23 -0500
+Served asset /specials.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 11:30:24 -0500
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 11:30:24 -0500
+Served asset /vendors.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 11:30:24 -0500
+Served asset /users.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 11:30:24 -0500
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 11:30:24 -0500
+Served asset /user_sessions.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 11:30:24 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 11:30:24 -0500
+Served asset /home.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 11:30:24 -0500
+Served asset /jqueryui.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 11:30:24 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 11:30:24 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 11:30:24 -0500
+Served asset /modernizr.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 11:30:24 -0500
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 11:30:24 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 11:30:24 -0500
+Served asset /tabs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 11:30:24 -0500
+Served asset /user_sessions.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 11:30:24 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 11:30:24 -0500
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 11:30:24 -0500
+Served asset /application.js - 304 Not Modified (22ms)
+
+
+Started GET "/specials?lat=43.0446459&lon=-76.14987359999999" for 127.0.0.1 at 2011-11-06 11:30:27 -0500
+  Processing by SpecialsController#index as */*
+  Parameters: {"lat"=>"43.0446459", "lon"=>"-76.14987359999999"}
+Creating scope :near. Overwriting existing method Vendor.near.
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['vendors'].find({:coordinates=>{"$nearSphere"=>["-76.14987359999999", "43.0446459"], "$maxDistance"=>0.005052092295133236}, :_id=>{"$ne"=>BSON::ObjectId('4eb6b6231f951e3b7c000006')}})
+Rendered specials/_index.html.erb (0.2ms)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-06 16:30:28 UTC}})
+Completed 200 OK in 491ms (Views: 19.6ms)
+MONGODB zapwire_development['vendors'].find({:coordinates=>{"$nearSphere"=>[-76.149816, 43.044643], "$maxDistance"=>0.005052092295133236}, :_id=>{"$ne"=>BSON::ObjectId('4eb5bdf51f951e24ee000001')}})
+MongoDB logging. Please note that logging negatively impacts performance and should be disabled for high-performance production apps.
+MONGODB admin['$cmd'].find({:ismaster=>1})
+MONGODB admin['$cmd'].find({:ismaster=>1})
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-06 11:32:56 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (138.8ms)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-06 16:32:58 UTC}})
+Completed 200 OK in 1456ms (Views: 905.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 11:33:00 -0500
+Served asset /application.css - 304 Not Modified (210ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 11:33:00 -0500
+Served asset /base.css - 304 Not Modified (24ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 11:33:00 -0500
+Served asset /scaffolds.css - 304 Not Modified (25ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 11:33:00 -0500
+Served asset /normalize.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 11:33:00 -0500
+Served asset /layout.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 11:33:00 -0500
+Served asset /skeleton.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 11:33:00 -0500
+Served asset /specials.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 11:33:01 -0500
+Served asset /style.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 11:33:01 -0500
+Served asset /user_sessions.css - 304 Not Modified (68ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 11:33:01 -0500
+Served asset /users.css - 304 Not Modified (67ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:01 -0500
+Served asset /jquery.js - 304 Not Modified (49ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:01 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 11:33:01 -0500
+Served asset /vendors.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:01 -0500
+Served asset /home.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:01 -0500
+Served asset /jqueryui.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:01 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:01 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:01 -0500
+Served asset /modernizr.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:01 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:01 -0500
+Served asset /specials.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:01 -0500
+Served asset /users.js - 304 Not Modified (27ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:01 -0500
+Served asset /user_sessions.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:01 -0500
+Served asset /tabs.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:01 -0500
+Served asset /application.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:01 -0500
+Served asset /vendors.js - 304 Not Modified (26ms)
+
+
+Started GET "/specials?lat=43.0446459&lon=-76.14987359999999" for 127.0.0.1 at 2011-11-06 11:33:04 -0500
+  Processing by SpecialsController#index as */*
+  Parameters: {"lat"=>"43.0446459", "lon"=>"-76.14987359999999"}
+Creating scope :near. Overwriting existing method Vendor.near.
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['vendors'].find({:coordinates=>{"$nearSphere"=>["-76.14987359999999", "43.0446459"], "$maxDistance"=>0.005052092295133236}, :_id=>{"$ne"=>BSON::ObjectId('4eb6b6c11f951e3c99000001')}})
+Rendered specials/_index.html.erb (11.0ms)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-06 16:33:05 UTC}})
+Completed 200 OK in 658ms (Views: 114.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-06 11:33:20 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (0.2ms)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-06 16:33:21 UTC}})
+Completed 200 OK in 457ms (Views: 131.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 11:33:22 -0500
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 11:33:22 -0500
+Served asset /base.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 11:33:22 -0500
+Served asset /layout.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 11:33:22 -0500
+Served asset /normalize.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 11:33:22 -0500
+Served asset /scaffolds.css - 304 Not Modified (24ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 11:33:22 -0500
+Served asset /skeleton.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 11:33:22 -0500
+Served asset /specials.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 11:33:22 -0500
+Served asset /style.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 11:33:22 -0500
+Served asset /user_sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 11:33:22 -0500
+Served asset /users.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 11:33:22 -0500
+Served asset /vendors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:22 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:22 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:22 -0500
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:22 -0500
+Served asset /jqueryui.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:22 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:22 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:22 -0500
+Served asset /modernizr.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:22 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:22 -0500
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:22 -0500
+Served asset /tabs.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:22 -0500
+Served asset /user_sessions.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:23 -0500
+Served asset /users.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:23 -0500
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:23 -0500
+Served asset /application.js - 304 Not Modified (17ms)
+
+
+Started GET "/specials?lat=43.0446459&lon=-76.14987359999999" for 127.0.0.1 at 2011-11-06 11:33:26 -0500
+  Processing by SpecialsController#index as */*
+  Parameters: {"lat"=>"43.0446459", "lon"=>"-76.14987359999999"}
+Creating scope :near. Overwriting existing method Vendor.near.
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['vendors'].find({:coordinates=>{"$nearSphere"=>["-76.14987359999999", "43.0446459"], "$maxDistance"=>0.005052092295133236}, :_id=>{"$ne"=>BSON::ObjectId('4eb6b6d61f951e3c99000002')}})
+Rendered specials/_index.html.erb (11.6ms)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-06 16:33:27 UTC}})
+Completed 200 OK in 457ms (Views: 29.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-06 11:33:48 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (0.2ms)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-06 16:33:48 UTC}})
+Completed 200 OK in 448ms (Views: 156.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 11:33:50 -0500
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 11:33:50 -0500
+Served asset /base.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 11:33:50 -0500
+Served asset /layout.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 11:33:50 -0500
+Served asset /normalize.css - 304 Not Modified (38ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 11:33:50 -0500
+Served asset /scaffolds.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 11:33:50 -0500
+Served asset /specials.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 11:33:50 -0500
+Served asset /skeleton.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 11:33:50 -0500
+Served asset /user_sessions.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 11:33:50 -0500
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 11:33:50 -0500
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 11:33:50 -0500
+Served asset /vendors.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:50 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:50 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:50 -0500
+Served asset /home.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:50 -0500
+Served asset /jqueryui.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:50 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:50 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:50 -0500
+Served asset /modernizr.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:50 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:50 -0500
+Served asset /tabs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:50 -0500
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:50 -0500
+Served asset /user_sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:50 -0500
+Served asset /users.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:50 -0500
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 11:33:51 -0500
+Served asset /application.js - 304 Not Modified (31ms)
+
+
+Started GET "/specials?lat=43.0446459&lon=-76.14987359999999" for 127.0.0.1 at 2011-11-06 11:33:54 -0500
+  Processing by SpecialsController#index as */*
+  Parameters: {"lat"=>"43.0446459", "lon"=>"-76.14987359999999"}
+Creating scope :near. Overwriting existing method Vendor.near.
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['vendors'].find({:coordinates=>{"$nearSphere"=>["-76.14987359999999", "43.0446459"], "$maxDistance"=>0.005052092295133236}, :_id=>{"$ne"=>BSON::ObjectId('4eb6b6f21f951e3c99000003')}})
+Rendered specials/_index.html.erb (11.3ms)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-06 16:33:55 UTC}})
+Completed 200 OK in 505ms (Views: 29.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-06 11:34:28 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (0.2ms)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-06 16:34:29 UTC}})
+Completed 200 OK in 286ms (Views: 118.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 11:34:30 -0500
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 11:34:30 -0500
+Served asset /base.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 11:34:30 -0500
+Served asset /layout.css - 304 Not Modified (157ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 11:34:30 -0500
+Served asset /normalize.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 11:34:30 -0500
+Served asset /specials.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 11:34:31 -0500
+Served asset /skeleton.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 11:34:31 -0500
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 11:34:31 -0500
+Served asset /user_sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 11:34:31 -0500
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 11:34:31 -0500
+Served asset /users.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 11:34:31 -0500
+Served asset /vendors.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 11:34:31 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 11:34:31 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 11:34:31 -0500
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 11:34:31 -0500
+Served asset /jqueryui.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 11:34:31 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 11:34:31 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 11:34:31 -0500
+Served asset /modernizr.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 11:34:31 -0500
+Served asset /specials.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 11:34:31 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 11:34:31 -0500
+Served asset /tabs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 11:34:31 -0500
+Served asset /user_sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 11:34:31 -0500
+Served asset /users.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 11:34:31 -0500
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 11:34:31 -0500
+Served asset /application.js - 304 Not Modified (21ms)
+
+
+Started GET "/specials?lat=43.0446459&lon=-76.14987359999999" for 127.0.0.1 at 2011-11-06 11:34:34 -0500
+  Processing by SpecialsController#index as */*
+  Parameters: {"lat"=>"43.0446459", "lon"=>"-76.14987359999999"}
+Creating scope :near. Overwriting existing method Vendor.near.
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['vendors'].find({:coordinates=>{"$nearSphere"=>["-76.14987359999999", "43.0446459"], "$maxDistance"=>0.005052092295133236}, :_id=>{"$ne"=>BSON::ObjectId('4eb6b71a1f951e3c99000004')}})
+Rendered specials/_index.html.erb (0.2ms)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-06 16:34:35 UTC}})
+Completed 200 OK in 507ms (Views: 20.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-06 11:35:13 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (0.2ms)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-06 16:35:14 UTC}})
+Completed 200 OK in 319ms (Views: 122.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 11:35:15 -0500
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 11:35:15 -0500
+Served asset /base.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 11:35:15 -0500
+Served asset /layout.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 11:35:15 -0500
+Served asset /scaffolds.css - 304 Not Modified (50ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 11:35:15 -0500
+Served asset /normalize.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 11:35:15 -0500
+Served asset /specials.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 11:35:15 -0500
+Served asset /user_sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 11:35:15 -0500
+Served asset /skeleton.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 11:35:16 -0500
+Served asset /style.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 11:35:16 -0500
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 11:35:16 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 11:35:16 -0500
+Served asset /vendors.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 11:35:16 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 11:35:16 -0500
+Served asset /home.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 11:35:16 -0500
+Served asset /jqueryui.js - 304 Not Modified (123ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 11:35:16 -0500
+Served asset /modernizr.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 11:35:16 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 11:35:16 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 11:35:16 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 11:35:16 -0500
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 11:35:16 -0500
+Served asset /tabs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 11:35:16 -0500
+Served asset /user_sessions.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 11:35:16 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 11:35:16 -0500
+Served asset /vendors.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 11:35:16 -0500
+Served asset /application.js - 304 Not Modified (38ms)
+
+
+Started GET "/specials?lat=43.0446459&lon=-76.14987359999999" for 127.0.0.1 at 2011-11-06 11:35:20 -0500
+  Processing by SpecialsController#index as */*
+  Parameters: {"lat"=>"43.0446459", "lon"=>"-76.14987359999999"}
+Creating scope :near. Overwriting existing method Vendor.near.
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['vendors'].find({:coordinates=>{"$nearSphere"=>["-76.14987359999999", "43.0446459"], "$maxDistance"=>12630230.737833088}, :_id=>{"$ne"=>BSON::ObjectId('4eb6b7481f951e3c99000005')}})
+Rendered specials/_index.html.erb (0.5ms)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-06 16:35:20 UTC}})
+Completed 200 OK in 343ms (Views: 19.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-06 11:35:42 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (0.2ms)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-06 16:35:43 UTC}})
+Completed 200 OK in 338ms (Views: 134.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 11:35:44 -0500
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 11:35:44 -0500
+Served asset /base.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 11:35:44 -0500
+Served asset /layout.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 11:35:44 -0500
+Served asset /skeleton.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 11:35:44 -0500
+Served asset /specials.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 11:35:45 -0500
+Served asset /normalize.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 11:35:45 -0500
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 11:35:45 -0500
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 11:35:45 -0500
+Served asset /user_sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 11:35:45 -0500
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 11:35:45 -0500
+Served asset /vendors.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 11:35:45 -0500
+Served asset /jquery.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 11:35:45 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 11:35:45 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 11:35:45 -0500
+Served asset /jqueryui.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 11:35:45 -0500
+Served asset /home.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 11:35:45 -0500
+Served asset /modernizr.js - 304 Not Modified (25ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 11:35:45 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 11:35:45 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 11:35:45 -0500
+Served asset /specials.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 11:35:45 -0500
+Served asset /tabs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 11:35:45 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 11:35:45 -0500
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 11:35:45 -0500
+Served asset /user_sessions.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 11:35:45 -0500
+Served asset /application.js - 304 Not Modified (19ms)
+
+
+Started GET "/specials?lat=43.0446459&lon=-76.14987359999999" for 127.0.0.1 at 2011-11-06 11:35:48 -0500
+  Processing by SpecialsController#index as */*
+  Parameters: {"lat"=>"43.0446459", "lon"=>"-76.14987359999999"}
+Creating scope :near. Overwriting existing method Vendor.near.
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['vendors'].find({:coordinates=>{"$nearSphere"=>["43.0446459", "-76.14987359999999"], "$maxDistance"=>12630230.737833088}, :_id=>{"$ne"=>BSON::ObjectId('4eb6b7651f951e3c99000006')}})
+Rendered specials/_index.html.erb (0.4ms)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-06 16:35:49 UTC}})
+Completed 200 OK in 331ms (Views: 18.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-06 11:36:18 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (0.2ms)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-06 16:36:19 UTC}})
+Completed 200 OK in 392ms (Views: 184.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 11:36:20 -0500
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 11:36:20 -0500
+Served asset /base.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 11:36:20 -0500
+Served asset /layout.css - 304 Not Modified (27ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 11:36:20 -0500
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 11:36:20 -0500
+Served asset /normalize.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 11:36:20 -0500
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 11:36:20 -0500
+Served asset /skeleton.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 11:36:20 -0500
+Served asset /specials.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 11:36:20 -0500
+Served asset /user_sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 11:36:20 -0500
+Served asset /users.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 11:36:20 -0500
+Served asset /vendors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 11:36:21 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 11:36:21 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 11:36:21 -0500
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 11:36:21 -0500
+Served asset /jqueryui.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 11:36:21 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 11:36:21 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 11:36:21 -0500
+Served asset /modernizr.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 11:36:21 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 11:36:21 -0500
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 11:36:21 -0500
+Served asset /tabs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 11:36:21 -0500
+Served asset /user_sessions.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 11:36:21 -0500
+Served asset /application.js - 304 Not Modified (30ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 11:36:21 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 11:36:21 -0500
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/specials?lat=43.0446459&lon=-76.14987359999999" for 127.0.0.1 at 2011-11-06 11:36:24 -0500
+  Processing by SpecialsController#index as */*
+  Parameters: {"lat"=>"43.0446459", "lon"=>"-76.14987359999999"}
+Creating scope :near. Overwriting existing method Vendor.near.
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['vendors'].find({:coordinates=>{"$nearSphere"=>["43.0446459", "-76.14987359999999"], "$maxDistance"=>0.005052092295133236}, :_id=>{"$ne"=>BSON::ObjectId('4eb6b7891f951e3c99000007')}})
+Rendered specials/_index.html.erb (0.2ms)
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['users'].find({:_id=>BSON::ObjectId('4eb59ca91f951e1a03000003')}).sort([[:_id, :asc]])
+MONGODB zapwire_development['users'].update({"_id"=>BSON::ObjectId('4eb59ca91f951e1a03000003')}, {"$set"=>{"last_activity_at"=>2011-11-06 16:36:25 UTC}})
+Completed 200 OK in 356ms (Views: 18.8ms)
+MONGODB zapwire_development['vendors'].find({}).sort([[:_id, :asc]])
+
+
+Started GET "/specials" for 127.0.0.1 at 2011-11-06 11:40:11 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 133ms (Views: 126.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-06 11:40:16 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 127ms (Views: 123.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 11:40:17 -0500
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 11:40:17 -0500
+Served asset /base.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 11:40:17 -0500
+Served asset /layout.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 11:40:17 -0500
+Served asset /normalize.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 11:40:17 -0500
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 11:40:17 -0500
+Served asset /skeleton.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 11:40:18 -0500
+Served asset /specials.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 11:40:18 -0500
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 11:40:18 -0500
+Served asset /user_sessions.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 11:40:18 -0500
+Served asset /users.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 11:40:18 -0500
+Served asset /vendors.css - 304 Not Modified (1ms)
+
+
+Started GET "/vendors" for 127.0.0.1 at 2011-11-06 11:40:18 -0500
+Creating scope :near. Overwriting existing method Vendor.near.
+  Processing by VendorsController#index as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:18 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:18 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:18 -0500
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:18 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:18 -0500
+Served asset /jqueryui.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:18 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:18 -0500
+Served asset /modernizr.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:18 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:18 -0500
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:18 -0500
+Served asset /tabs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:18 -0500
+Served asset /user_sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:19 -0500
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:19 -0500
+Served asset /users.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:19 -0500
+Served asset /application.js - 304 Not Modified (28ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-06 11:40:19 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 136ms (Views: 133.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 11:40:23 -0500
+Served asset /application.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 11:40:23 -0500
+Served asset /base.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 11:40:23 -0500
+Served asset /layout.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 11:40:23 -0500
+Served asset /normalize.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 11:40:23 -0500
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 11:40:23 -0500
+Served asset /skeleton.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 11:40:23 -0500
+Served asset /users.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 11:40:24 -0500
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 11:40:24 -0500
+Served asset /specials.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 11:40:24 -0500
+Served asset /user_sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:24 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 11:40:24 -0500
+Served asset /vendors.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:24 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:24 -0500
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:24 -0500
+Served asset /jqueryui.js - 304 Not Modified (25ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:24 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:24 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:24 -0500
+Served asset /modernizr.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:24 -0500
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:24 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:24 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:24 -0500
+Served asset /tabs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:24 -0500
+Served asset /user_sessions.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:24 -0500
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:24 -0500
+Served asset /application.js - 304 Not Modified (25ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 11:40:26 -0500
+Served asset /application.css - 304 Not Modified (81ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 11:40:26 -0500
+Served asset /base.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 11:40:26 -0500
+Served asset /normalize.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 11:40:26 -0500
+Served asset /scaffolds.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 11:40:26 -0500
+Served asset /layout.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 11:40:26 -0500
+Served asset /skeleton.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 11:40:27 -0500
+Served asset /specials.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 11:40:27 -0500
+Served asset /style.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 11:40:27 -0500
+Served asset /user_sessions.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 11:40:27 -0500
+Served asset /vendors.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 11:40:27 -0500
+Served asset /users.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:27 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:27 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:27 -0500
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:27 -0500
+Served asset /jqueryui.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:27 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:27 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:27 -0500
+Served asset /modernizr.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:27 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:27 -0500
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:27 -0500
+Served asset /tabs.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:27 -0500
+Served asset /user_sessions.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:27 -0500
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:27 -0500
+Served asset /users.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 11:40:27 -0500
+Served asset /application.js - 304 Not Modified (21ms)
+
+
+Started GET "/specials?lat=43.0446376&lon=-76.149879" for 127.0.0.1 at 2011-11-06 11:40:51 -0500
+  Processing by SpecialsController#index as */*
+  Parameters: {"lat"=>"43.0446376", "lon"=>"-76.149879"}
+Creating scope :near. Overwriting existing method Vendor.near.
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['vendors'].find({:coordinates=>{"$nearSphere"=>["43.0446376", "-76.149879"], "$maxDistance"=>0.005052092295133236}, :_id=>{"$ne"=>BSON::ObjectId('4eb6b8941f951e3c99000008')}})
+Rendered specials/_index.html.erb (0.2ms)
+Completed 200 OK in 174ms (Views: 18.8ms)
+
+
+Started GET "/specials?lat=43.0446376&lon=-76.149879" for 127.0.0.1 at 2011-11-06 11:40:52 -0500
+  Processing by SpecialsController#index as */*
+  Parameters: {"lat"=>"43.0446376", "lon"=>"-76.149879"}
+Creating scope :near. Overwriting existing method Vendor.near.
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['vendors'].find({:coordinates=>{"$nearSphere"=>["43.0446376", "-76.149879"], "$maxDistance"=>0.005052092295133236}, :_id=>{"$ne"=>BSON::ObjectId('4eb6b8941f951e3c99000009')}})
+Rendered specials/_index.html.erb (0.2ms)
+Completed 200 OK in 163ms (Views: 20.9ms)
+
+
+Started GET "/specials?lat=43.0446376&lon=-76.149879" for 127.0.0.1 at 2011-11-06 11:40:55 -0500
+  Processing by SpecialsController#index as */*
+  Parameters: {"lat"=>"43.0446376", "lon"=>"-76.149879"}
+Creating scope :near. Overwriting existing method Vendor.near.
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['vendors'].find({:coordinates=>{"$nearSphere"=>["43.0446376", "-76.149879"], "$maxDistance"=>0.005052092295133236}, :_id=>{"$ne"=>BSON::ObjectId('4eb6b8971f951e3c9900000a')}})
+Rendered specials/_index.html.erb (0.2ms)
+Completed 200 OK in 289ms (Views: 18.5ms)
+
+
+Started GET "/specials" for 127.0.0.1 at 2011-11-06 11:44:37 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 145ms (Views: 142.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 11:44:38 -0500
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 11:44:38 -0500
+Served asset /base.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 11:44:38 -0500
+Served asset /layout.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 11:44:38 -0500
+Served asset /normalize.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 11:44:39 -0500
+Served asset /skeleton.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 11:44:39 -0500
+Served asset /user_sessions.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 11:44:39 -0500
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 11:44:39 -0500
+Served asset /specials.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 11:44:39 -0500
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 11:44:39 -0500
+Served asset /users.css - 304 Not Modified (29ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 11:44:39 -0500
+Served asset /vendors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 11:44:39 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 11:44:39 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 11:44:39 -0500
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 11:44:39 -0500
+Served asset /jqueryui.js - 304 Not Modified (32ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 11:44:39 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 11:44:39 -0500
+Served asset /modernizr.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 11:44:39 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 11:44:39 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 11:44:39 -0500
+Served asset /specials.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 11:44:39 -0500
+Served asset /tabs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 11:44:39 -0500
+Served asset /user_sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 11:44:39 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 11:44:39 -0500
+Served asset /application.js - 304 Not Modified (36ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 11:44:39 -0500
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 11:44:41 -0500
+Served asset /jqueryui.js - 304 Not Modified (2ms)
+
+
+Started GET "/specials?lat=43.0446376&lon=-76.149879" for 127.0.0.1 at 2011-11-06 11:44:42 -0500
+  Processing by SpecialsController#index as */*
+  Parameters: {"lat"=>"43.0446376", "lon"=>"-76.149879"}
+Creating scope :near. Overwriting existing method Vendor.near.
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['vendors'].find({:coordinates=>{"$nearSphere"=>["-76.149879", "43.0446376"], "$maxDistance"=>0.005052092295133236}, :_id=>{"$ne"=>BSON::ObjectId('4eb6b97b1f951e3c9900000b')}})
+Rendered specials/_index.html.erb (0.4ms)
+Completed 200 OK in 198ms (Views: 21.6ms)
+MONGODB zapwire_development['vendors'].find({:coordinates=>{"$nearSphere"=>[-76.149816, 43.044643], "$maxDistance"=>0.005052092295133236}, :_id=>{"$ne"=>BSON::ObjectId('4eb5bdf51f951e24ee000001')}})
+
+
+Started GET "/specials" for 127.0.0.1 at 2011-11-06 11:45:55 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 133ms (Views: 130.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 11:45:56 -0500
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 11:45:56 -0500
+Served asset /base.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 11:45:56 -0500
+Served asset /layout.css - 304 Not Modified (57ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 11:45:56 -0500
+Served asset /normalize.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 11:45:56 -0500
+Served asset /scaffolds.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 11:45:56 -0500
+Served asset /skeleton.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 11:45:56 -0500
+Served asset /specials.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 11:45:56 -0500
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 11:45:56 -0500
+Served asset /user_sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 11:45:56 -0500
+Served asset /users.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 11:45:56 -0500
+Served asset /vendors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 11:45:56 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 11:45:57 -0500
+Served asset /jqueryui.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 11:45:57 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 11:45:57 -0500
+Served asset /home.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 11:45:57 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 11:45:57 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 11:45:57 -0500
+Served asset /tabs.js - 304 Not Modified (34ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 11:45:57 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 11:45:57 -0500
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 11:45:57 -0500
+Served asset /modernizr.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 11:45:57 -0500
+Served asset /user_sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 11:45:57 -0500
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 11:45:57 -0500
+Served asset /vendors.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 11:45:57 -0500
+Served asset /application.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 11:45:59 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 11:45:59 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 11:45:59 -0500
+Served asset /modernizr.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 11:45:59 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 11:45:59 -0500
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 11:45:59 -0500
+Served asset /tabs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 11:45:59 -0500
+Served asset /user_sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 11:45:59 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 11:45:59 -0500
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 11:45:59 -0500
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/specials?lat=43.0446376&lon=-76.149879" for 127.0.0.1 at 2011-11-06 11:45:59 -0500
+  Processing by SpecialsController#index as */*
+  Parameters: {"lat"=>"43.0446376", "lon"=>"-76.149879"}
+Creating scope :near. Overwriting existing method Vendor.near.
+Completed 500 Internal Server Error in 448ms
+
+NameError (undefined local variable or method `tmpv' for #<SpecialsController:0x9d5d0f0>):
+  app/controllers/specials_controller.rb:16:in `index'
+
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (8.1ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.4ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (26.6ms)
+
+
+Started GET "/specials" for 127.0.0.1 at 2011-11-06 11:46:53 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 139ms (Views: 136.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 11:46:54 -0500
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 11:46:54 -0500
+Served asset /base.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 11:46:54 -0500
+Served asset /layout.css - 304 Not Modified (155ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 11:46:54 -0500
+Served asset /normalize.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 11:46:55 -0500
+Served asset /skeleton.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 11:46:55 -0500
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 11:46:55 -0500
+Served asset /specials.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 11:46:55 -0500
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 11:46:55 -0500
+Served asset /user_sessions.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 11:46:55 -0500
+Served asset /users.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 11:46:55 -0500
+Served asset /vendors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 11:46:55 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 11:46:55 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 11:46:55 -0500
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 11:46:55 -0500
+Served asset /jqueryui.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 11:46:55 -0500
+Served asset /modernizr.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 11:46:55 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 11:46:55 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 11:46:55 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 11:46:55 -0500
+Served asset /specials.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 11:46:55 -0500
+Served asset /tabs.js - 304 Not Modified (29ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 11:46:55 -0500
+Served asset /user_sessions.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 11:46:55 -0500
+Served asset /users.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 11:46:55 -0500
+Served asset /vendors.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 11:46:55 -0500
+Served asset /application.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 11:46:57 -0500
+Served asset /jqueryui.js - 304 Not Modified (2ms)
+
+
+Started GET "/specials?lat=43.0446376&lon=-76.149879" for 127.0.0.1 at 2011-11-06 11:46:58 -0500
+  Processing by SpecialsController#index as */*
+  Parameters: {"lat"=>"43.0446376", "lon"=>"-76.149879"}
+Creating scope :near. Overwriting existing method Vendor.near.
+Completed 500 Internal Server Error in 456ms
+
+NameError (undefined local variable or method `tmpv' for #<SpecialsController:0x9cee7a4>):
+  app/controllers/specials_controller.rb:16:in `index'
+
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (9.9ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.9ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.9ms)
+MongoDB logging. Please note that logging negatively impacts performance and should be disabled for high-performance production apps.
+MONGODB admin['$cmd'].find({:ismaster=>1})
+MONGODB admin['$cmd'].find({:ismaster=>1})
+
+
+Started GET "/specials" for 127.0.0.1 at 2011-11-06 11:48:43 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (124.0ms)
+Completed 200 OK in 800ms (Views: 797.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 11:48:46 -0500
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 11:48:46 -0500
+Served asset /base.css - 304 Not Modified (54ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 11:48:46 -0500
+Served asset /skeleton.css - 304 Not Modified (31ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 11:48:46 -0500
+Served asset /normalize.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 11:48:46 -0500
+Served asset /layout.css - 304 Not Modified (42ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 11:48:46 -0500
+Served asset /specials.css - 304 Not Modified (54ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 11:48:46 -0500
+Served asset /scaffolds.css - 304 Not Modified (31ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 11:48:46 -0500
+Served asset /style.css - 304 Not Modified (40ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 11:48:46 -0500
+Served asset /user_sessions.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 11:48:46 -0500
+Served asset /users.css - 304 Not Modified (24ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 11:48:46 -0500
+Served asset /vendors.css - 304 Not Modified (29ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 11:48:46 -0500
+Served asset /jquery.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 11:48:46 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (53ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 11:48:47 -0500
+Served asset /home.js - 304 Not Modified (29ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 11:48:47 -0500
+Served asset /jqueryui.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 11:48:47 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 11:48:47 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 11:48:47 -0500
+Served asset /modernizr.js - 304 Not Modified (41ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 11:48:47 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 11:48:47 -0500
+Served asset /specials.js - 304 Not Modified (39ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 11:48:47 -0500
+Served asset /tabs.js - 304 Not Modified (27ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 11:48:47 -0500
+Served asset /user_sessions.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 11:48:47 -0500
+Served asset /users.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 11:48:47 -0500
+Served asset /vendors.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 11:48:47 -0500
+Served asset /application.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 11:48:49 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 11:48:49 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 11:48:49 -0500
+Served asset /modernizr.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 11:48:49 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 11:48:50 -0500
+Served asset /specials.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 11:48:50 -0500
+Served asset /tabs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 11:48:50 -0500
+Served asset /user_sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 11:48:50 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 11:48:50 -0500
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 11:48:50 -0500
+Served asset /application.js - 304 Not Modified (13ms)
+
+
+Started GET "/specials?lat=43.04464230000001&lon=-76.1498945" for 127.0.0.1 at 2011-11-06 11:48:50 -0500
+  Processing by SpecialsController#index as */*
+  Parameters: {"lat"=>"43.04464230000001", "lon"=>"-76.1498945"}
+Creating scope :near. Overwriting existing method Vendor.near.
+Completed 500 Internal Server Error in 495ms
+
+NameError (undefined local variable or method `tmpv' for #<SpecialsController:0xaabb2b0>):
+  app/controllers/specials_controller.rb:16:in `index'
+
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (8.9ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.1ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.1ms)
+
+
+Started GET "/specials" for 127.0.0.1 at 2011-11-06 11:50:22 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 141ms (Views: 137.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 11:50:24 -0500
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 11:50:24 -0500
+Served asset /scaffolds.css - 304 Not Modified (179ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 11:50:24 -0500
+Served asset /normalize.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 11:50:24 -0500
+Served asset /base.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 11:50:24 -0500
+Served asset /layout.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 11:50:24 -0500
+Served asset /skeleton.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 11:50:24 -0500
+Served asset /specials.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 11:50:24 -0500
+Served asset /users.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 11:50:24 -0500
+Served asset /user_sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 11:50:24 -0500
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 11:50:24 -0500
+Served asset /vendors.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 11:50:25 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 11:50:25 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 11:50:25 -0500
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 11:50:25 -0500
+Served asset /jqueryui.js - 304 Not Modified (48ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 11:50:25 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 11:50:25 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 11:50:25 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 11:50:25 -0500
+Served asset /modernizr.js - 304 Not Modified (29ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 11:50:25 -0500
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 11:50:25 -0500
+Served asset /tabs.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 11:50:25 -0500
+Served asset /user_sessions.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 11:50:25 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 11:50:25 -0500
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 11:50:25 -0500
+Served asset /application.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 11:50:27 -0500
+Served asset /jqueryui.js - 304 Not Modified (3ms)
+
+
+Started GET "/specials?lat=43.04464230000001&lon=-76.1498945" for 127.0.0.1 at 2011-11-06 11:50:29 -0500
+  Processing by SpecialsController#index as */*
+  Parameters: {"lat"=>"43.04464230000001", "lon"=>"-76.1498945"}
+Creating scope :near. Overwriting existing method Vendor.near.
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['vendors'].find({:coordinates=>{"$nearSphere"=>["-76.1498945", "43.04464230000001"], "$maxDistance"=>0.005052092295133236}, :_id=>{"$ne"=>BSON::ObjectId('4eb6bad51f951e3e4d000002')}})
+Rendered specials/_index.html.erb (3.9ms)
+Completed 200 OK in 231ms (Views: 98.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-06 11:50:38 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 121ms (Views: 117.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 11:50:39 -0500
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 11:50:39 -0500
+Served asset /base.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 11:50:40 -0500
+Served asset /layout.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 11:50:40 -0500
+Served asset /scaffolds.css - 304 Not Modified (30ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 11:50:40 -0500
+Served asset /normalize.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 11:50:40 -0500
+Served asset /specials.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 11:50:40 -0500
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 11:50:40 -0500
+Served asset /skeleton.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 11:50:40 -0500
+Served asset /user_sessions.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 11:50:40 -0500
+Served asset /users.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 11:50:40 -0500
+Served asset /vendors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 11:50:40 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 11:50:40 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 11:50:40 -0500
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 11:50:40 -0500
+Served asset /jqueryui.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 11:50:40 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 11:50:40 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 11:50:40 -0500
+Served asset /modernizr.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 11:50:40 -0500
+Served asset /users.js - 304 Not Modified (24ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 11:50:40 -0500
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 11:50:40 -0500
+Served asset /tabs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 11:50:40 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 11:50:40 -0500
+Served asset /user_sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 11:50:40 -0500
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 11:50:40 -0500
+Served asset /application.js - 304 Not Modified (23ms)
+
+
+Started GET "/specials?lat=43.04464230000001&lon=-76.1498945" for 127.0.0.1 at 2011-11-06 11:50:42 -0500
+  Processing by SpecialsController#index as */*
+  Parameters: {"lat"=>"43.04464230000001", "lon"=>"-76.1498945"}
+Creating scope :near. Overwriting existing method Vendor.near.
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['vendors'].find({:coordinates=>{"$nearSphere"=>["-76.1498945", "43.04464230000001"], "$maxDistance"=>0.005052092295133236}, :_id=>{"$ne"=>BSON::ObjectId('4eb6bae31f951e3e4d000003')}})
+Rendered specials/_index.html.erb (2.3ms)
+Completed 200 OK in 199ms (Views: 15.6ms)
+
+
+Started GET "/specials" for 127.0.0.1 at 2011-11-06 11:53:59 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 134ms (Views: 131.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 11:54:00 -0500
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 11:54:00 -0500
+Served asset /base.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 11:54:00 -0500
+Served asset /normalize.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 11:54:00 -0500
+Served asset /skeleton.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 11:54:00 -0500
+Served asset /layout.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 11:54:00 -0500
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 11:54:00 -0500
+Served asset /specials.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 11:54:01 -0500
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 11:54:01 -0500
+Served asset /user_sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 11:54:01 -0500
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 11:54:01 -0500
+Served asset /vendors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:01 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:01 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:01 -0500
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:01 -0500
+Served asset /jqueryui.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:01 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:01 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:01 -0500
+Served asset /modernizr.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:01 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:01 -0500
+Served asset /tabs.js - 304 Not Modified (42ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:01 -0500
+Served asset /specials.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:01 -0500
+Served asset /user_sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:01 -0500
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:01 -0500
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:01 -0500
+Served asset /application.js - 304 Not Modified (37ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:03 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:03 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:03 -0500
+Served asset /modernizr.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:03 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:04 -0500
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:04 -0500
+Served asset /tabs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:04 -0500
+Served asset /user_sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:04 -0500
+Served asset /users.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:04 -0500
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:04 -0500
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/specials?lat=43.04464230000001&lon=-76.1498945" for 127.0.0.1 at 2011-11-06 11:54:04 -0500
+  Processing by SpecialsController#index as */*
+  Parameters: {"lat"=>"43.04464230000001", "lon"=>"-76.1498945"}
+Creating scope :near. Overwriting existing method Vendor.near.
+Completed 500 Internal Server Error in 501ms
+
+NameError (undefined local variable or method `tmpv' for #<SpecialsController:0xae0b118>):
+  app/controllers/specials_controller.rb:16:in `index'
+
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (8.5ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.8ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.4ms)
+
+
+Started GET "/specials" for 127.0.0.1 at 2011-11-06 11:54:43 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 128ms (Views: 124.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 11:54:44 -0500
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 11:54:44 -0500
+Served asset /base.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 11:54:44 -0500
+Served asset /specials.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 11:54:44 -0500
+Served asset /normalize.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 11:54:44 -0500
+Served asset /skeleton.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 11:54:44 -0500
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 11:54:44 -0500
+Served asset /layout.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 11:54:44 -0500
+Served asset /style.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 11:54:44 -0500
+Served asset /user_sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 11:54:44 -0500
+Served asset /vendors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 11:54:45 -0500
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:45 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:45 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:45 -0500
+Served asset /home.js - 304 Not Modified (29ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:45 -0500
+Served asset /jqueryui.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:45 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:45 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:45 -0500
+Served asset /modernizr.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:45 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:45 -0500
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:45 -0500
+Served asset /tabs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:45 -0500
+Served asset /user_sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:45 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:45 -0500
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:45 -0500
+Served asset /application.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 11:54:47 -0500
+Served asset /jqueryui.js - 304 Not Modified (4ms)
+
+
+Started GET "/specials?lat=43.04464230000001&lon=-76.1498945" for 127.0.0.1 at 2011-11-06 11:54:49 -0500
+  Processing by SpecialsController#index as */*
+  Parameters: {"lat"=>"43.04464230000001", "lon"=>"-76.1498945"}
+Creating scope :near. Overwriting existing method Vendor.near.
+Completed 500 Internal Server Error in 434ms
+
+NameError (undefined local variable or method `tmpv' for #<SpecialsController:0xae5b8ac>):
+  app/controllers/specials_controller.rb:16:in `index'
+
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (9.6ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.8ms)
+Rendered /home/nick/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/specials" for 127.0.0.1 at 2011-11-06 11:55:51 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 122ms (Views: 118.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 11:55:52 -0500
+Served asset /application.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 11:55:52 -0500
+Served asset /base.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 11:55:53 -0500
+Served asset /layout.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 11:55:53 -0500
+Served asset /scaffolds.css - 304 Not Modified (27ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 11:55:53 -0500
+Served asset /normalize.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 11:55:53 -0500
+Served asset /skeleton.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 11:55:53 -0500
+Served asset /specials.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 11:55:53 -0500
+Served asset /user_sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 11:55:53 -0500
+Served asset /style.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 11:55:53 -0500
+Served asset /vendors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 11:55:53 -0500
+Served asset /users.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 11:55:53 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 11:55:53 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 11:55:53 -0500
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 11:55:53 -0500
+Served asset /jqueryui.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 11:55:53 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 11:55:53 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 11:55:53 -0500
+Served asset /modernizr.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 11:55:53 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 11:55:53 -0500
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 11:55:53 -0500
+Served asset /tabs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 11:55:53 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 11:55:53 -0500
+Served asset /user_sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 11:55:53 -0500
+Served asset /vendors.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 11:55:53 -0500
+Served asset /application.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 11:55:56 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 11:55:56 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 11:55:56 -0500
+Served asset /modernizr.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 11:55:56 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 11:55:56 -0500
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 11:55:56 -0500
+Served asset /tabs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 11:55:56 -0500
+Served asset /user_sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 11:55:56 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 11:55:56 -0500
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 11:55:56 -0500
+Served asset /application.js - 304 Not Modified (21ms)
+
+
+Started GET "/specials?lat=43.0446266&lon=-76.149866" for 127.0.0.1 at 2011-11-06 11:55:57 -0500
+  Processing by SpecialsController#index as */*
+  Parameters: {"lat"=>"43.0446266", "lon"=>"-76.149866"}
+Creating scope :near. Overwriting existing method Vendor.near.
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['vendors'].find({:coordinates=>{"$nearSphere"=>["-76.149866", "43.0446266"], "$maxDistance"=>0.005052092295133236}, :_id=>{"$ne"=>BSON::ObjectId('4eb6bc1d1f951e3e4d000006')}})
+Rendered specials/_index.html.erb (3.8ms)
+Completed 200 OK in 155ms (Views: 20.9ms)
+MONGODB zapwire_development['vendors'].find({:coordinates=>{"$nearSphere"=>[-76.149816, 43.044643], "$maxDistance"=>0.005052092295133236}, :_id=>{"$ne"=>BSON::ObjectId('4eb5bdf51f951e24ee000001')}})
+
+
+Started GET "/specials" for 127.0.0.1 at 2011-11-06 11:59:56 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 240ms (Views: 237.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 11:59:57 -0500
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 11:59:57 -0500
+Served asset /base.css - 304 Not Modified (25ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 11:59:58 -0500
+Served asset /layout.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 11:59:58 -0500
+Served asset /normalize.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 11:59:58 -0500
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 11:59:58 -0500
+Served asset /skeleton.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 11:59:58 -0500
+Served asset /specials.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 11:59:58 -0500
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 11:59:58 -0500
+Served asset /user_sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 11:59:58 -0500
+Served asset /users.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 11:59:58 -0500
+Served asset /vendors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 11:59:58 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 11:59:58 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 11:59:58 -0500
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 11:59:58 -0500
+Served asset /jqueryui.js - 304 Not Modified (64ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 11:59:58 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 11:59:58 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 11:59:58 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 11:59:58 -0500
+Served asset /modernizr.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 11:59:58 -0500
+Served asset /specials.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 11:59:58 -0500
+Served asset /tabs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 11:59:58 -0500
+Served asset /user_sessions.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 11:59:58 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 11:59:58 -0500
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 11:59:58 -0500
+Served asset /application.js - 304 Not Modified (16ms)
+
+
+Started GET "/specials?lat=43.0446312&lon=-76.14985209999999" for 127.0.0.1 at 2011-11-06 12:00:01 -0500
+  Processing by SpecialsController#index as */*
+  Parameters: {"lat"=>"43.0446312", "lon"=>"-76.14985209999999"}
+Creating scope :near. Overwriting existing method Vendor.near.
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['vendors'].find({:coordinates=>{"$nearSphere"=>["-76.14985209999999", "43.0446312"], "$maxDistance"=>0.005052092295133236}, :_id=>{"$ne"=>BSON::ObjectId('4eb6bd121f951e3e4d000007')}})
+Rendered specials/_index.html.erb (0.4ms)
+Completed 200 OK in 312ms (Views: 28.2ms)
+
+
+Started GET "/specials" for 127.0.0.1 at 2011-11-06 12:00:32 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 184ms (Views: 178.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 12:00:33 -0500
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 12:00:33 -0500
+Served asset /base.css - 304 Not Modified (57ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 12:00:34 -0500
+Served asset /normalize.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 12:00:34 -0500
+Served asset /skeleton.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 12:00:34 -0500
+Served asset /scaffolds.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 12:00:34 -0500
+Served asset /layout.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 12:00:34 -0500
+Served asset /specials.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 12:00:34 -0500
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 12:00:34 -0500
+Served asset /user_sessions.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 12:00:34 -0500
+Served asset /users.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 12:00:34 -0500
+Served asset /vendors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 12:00:34 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 12:00:34 -0500
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 12:00:34 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 12:00:34 -0500
+Served asset /jqueryui.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 12:00:34 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 12:00:34 -0500
+Served asset /tabs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 12:00:34 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 12:00:34 -0500
+Served asset /modernizr.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 12:00:34 -0500
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 12:00:34 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 12:00:34 -0500
+Served asset /user_sessions.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 12:00:34 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 12:00:34 -0500
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 12:00:34 -0500
+Served asset /application.js - 304 Not Modified (25ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 12:00:36 -0500
+Served asset /modernizr.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 12:00:36 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 12:00:36 -0500
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 12:00:36 -0500
+Served asset /tabs.js - 304 Not Modified (1ms)
+
+
+Started GET "/specials?lat=43.0446312&lon=-76.14985209999999" for 127.0.0.1 at 2011-11-06 12:00:37 -0500
+  Processing by SpecialsController#index as */*
+  Parameters: {"lat"=>"43.0446312", "lon"=>"-76.14985209999999"}
+Creating scope :near. Overwriting existing method Vendor.near.
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['vendors'].find({:coordinates=>{"$nearSphere"=>["-76.14985209999999", "43.0446312"], "$maxDistance"=>5052.092295133236}, :_id=>{"$ne"=>BSON::ObjectId('4eb6bd351f951e3e4d000008')}})
+Rendered specials/_index.html.erb (0.7ms)
+Completed 200 OK in 165ms (Views: 18.7ms)
+
+
+Started GET "/specials" for 127.0.0.1 at 2011-11-06 12:00:50 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 131ms (Views: 128.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 12:00:52 -0500
+Served asset /application.css - 304 Not Modified (31ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 12:00:52 -0500
+Served asset /base.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 12:00:52 -0500
+Served asset /layout.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 12:00:52 -0500
+Served asset /scaffolds.css - 304 Not Modified (43ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 12:00:52 -0500
+Served asset /normalize.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 12:00:52 -0500
+Served asset /specials.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 12:00:52 -0500
+Served asset /skeleton.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 12:00:52 -0500
+Served asset /user_sessions.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 12:00:52 -0500
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 12:00:52 -0500
+Served asset /users.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 12:00:52 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 12:00:52 -0500
+Served asset /vendors.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 12:00:52 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 12:00:52 -0500
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 12:00:52 -0500
+Served asset /jqueryui.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 12:00:52 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 12:00:52 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 12:00:52 -0500
+Served asset /modernizr.js - 304 Not Modified (33ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 12:00:52 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 12:00:52 -0500
+Served asset /specials.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 12:00:52 -0500
+Served asset /tabs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 12:00:52 -0500
+Served asset /user_sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 12:00:53 -0500
+Served asset /users.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 12:00:53 -0500
+Served asset /vendors.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 12:00:53 -0500
+Served asset /application.js - 304 Not Modified (23ms)
+
+
+Started GET "/specials?lat=43.0446312&lon=-76.14985209999999" for 127.0.0.1 at 2011-11-06 12:00:56 -0500
+  Processing by SpecialsController#index as */*
+  Parameters: {"lat"=>"43.0446312", "lon"=>"-76.14985209999999"}
+Creating scope :near. Overwriting existing method Vendor.near.
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['vendors'].find({:coordinates=>{"$nearSphere"=>["-76.14985209999999", "43.0446312"], "$maxDistance"=>505.2092295133235}, :_id=>{"$ne"=>BSON::ObjectId('4eb6bd481f951e3e4d000009')}})
+Rendered specials/_index.html.erb (0.7ms)
+Completed 200 OK in 180ms (Views: 20.2ms)
+
+
+Started GET "/specials" for 127.0.0.1 at 2011-11-06 12:02:45 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 249ms (Views: 246.6ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 12:02:46 -0500
+Served asset /base.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 12:02:46 -0500
+Served asset /application.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 12:02:46 -0500
+Served asset /layout.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 12:02:46 -0500
+Served asset /normalize.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 12:02:47 -0500
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 12:02:47 -0500
+Served asset /skeleton.css - 304 Not Modified (37ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 12:02:47 -0500
+Served asset /style.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 12:02:47 -0500
+Served asset /specials.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 12:02:47 -0500
+Served asset /user_sessions.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 12:02:47 -0500
+Served asset /users.css - 304 Not Modified (31ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 12:02:47 -0500
+Served asset /vendors.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 12:02:47 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 12:02:47 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 12:02:47 -0500
+Served asset /home.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 12:02:47 -0500
+Served asset /jqueryui.js - 304 Not Modified (34ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 12:02:47 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 12:02:47 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 12:02:47 -0500
+Served asset /modernizr.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 12:02:47 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 12:02:47 -0500
+Served asset /specials.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 12:02:47 -0500
+Served asset /tabs.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 12:02:47 -0500
+Served asset /user_sessions.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 12:02:47 -0500
+Served asset /users.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 12:02:47 -0500
+Served asset /application.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 12:02:47 -0500
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 12:02:49 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 12:02:49 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 12:02:49 -0500
+Served asset /modernizr.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 12:02:49 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 12:02:49 -0500
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 12:02:49 -0500
+Served asset /tabs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 12:02:49 -0500
+Served asset /user_sessions.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 12:02:49 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 12:02:49 -0500
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 12:02:50 -0500
+Served asset /application.js - 304 Not Modified (13ms)
+
+
+Started GET "/specials?lat=43.0446312&lon=-76.14985209999999" for 127.0.0.1 at 2011-11-06 12:02:50 -0500
+  Processing by SpecialsController#index as */*
+  Parameters: {"lat"=>"43.0446312", "lon"=>"-76.14985209999999"}
+Creating scope :near. Overwriting existing method Vendor.near.
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['vendors'].find({:coordinates=>{"$nearSphere"=>["-76.14985209999999", "43.0446312"], "$maxDistance"=>0.025260461475666178}, :_id=>{"$ne"=>BSON::ObjectId('4eb6bdbb1f951e3e4d00000a')}})
+Rendered specials/_index.html.erb (0.4ms)
+Completed 200 OK in 160ms (Views: 17.3ms)
+
+
+Started GET "/specials" for 127.0.0.1 at 2011-11-06 12:03:15 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 164ms (Views: 161.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 12:03:17 -0500
+Served asset /application.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 12:03:17 -0500
+Served asset /base.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 12:03:17 -0500
+Served asset /layout.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 12:03:17 -0500
+Served asset /normalize.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 12:03:17 -0500
+Served asset /specials.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 12:03:17 -0500
+Served asset /skeleton.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 12:03:17 -0500
+Served asset /user_sessions.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 12:03:17 -0500
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 12:03:17 -0500
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 12:03:17 -0500
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 12:03:17 -0500
+Served asset /vendors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 12:03:17 -0500
+Served asset /jqueryui.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 12:03:17 -0500
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 12:03:17 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 12:03:17 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 12:03:17 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 12:03:17 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 12:03:17 -0500
+Served asset /modernizr.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 12:03:18 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 12:03:18 -0500
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 12:03:18 -0500
+Served asset /user_sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 12:03:18 -0500
+Served asset /tabs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 12:03:18 -0500
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 12:03:18 -0500
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 12:03:18 -0500
+Served asset /application.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 12:03:20 -0500
+Served asset /jqueryui.js - 304 Not Modified (3ms)
+
+
+Started GET "/specials?lat=43.0446312&lon=-76.14985209999999" for 127.0.0.1 at 2011-11-06 12:03:22 -0500
+  Processing by SpecialsController#index as */*
+  Parameters: {"lat"=>"43.0446312", "lon"=>"-76.14985209999999"}
+Creating scope :near. Overwriting existing method Vendor.near.
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['vendors'].find({:coordinates=>{"$nearSphere"=>["-76.14985209999999", "43.0446312"], "$maxDistance"=>0.2526046147566618}, :_id=>{"$ne"=>BSON::ObjectId('4eb6bdda1f951e3e4d00000b')}})
+Rendered specials/_index.html.erb (0.4ms)
+Completed 200 OK in 183ms (Views: 20.9ms)
+
+
+Started GET "/specials" for 127.0.0.1 at 2011-11-06 12:03:44 -0500
+  Processing by SpecialsController#index as HTML
+Rendered specials/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 126ms (Views: 123.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-06 12:03:46 -0500
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2011-11-06 12:03:46 -0500
+Served asset /base.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-11-06 12:03:46 -0500
+Served asset /layout.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2011-11-06 12:03:46 -0500
+Served asset /normalize.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-06 12:03:46 -0500
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2011-11-06 12:03:46 -0500
+Served asset /skeleton.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/specials.css?body=1" for 127.0.0.1 at 2011-11-06 12:03:46 -0500
+Served asset /specials.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2011-11-06 12:03:46 -0500
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user_sessions.css?body=1" for 127.0.0.1 at 2011-11-06 12:03:46 -0500
+Served asset /user_sessions.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-06 12:03:46 -0500
+Served asset /users.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-06 12:03:46 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendors.css?body=1" for 127.0.0.1 at 2011-11-06 12:03:46 -0500
+Served asset /vendors.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-06 12:03:46 -0500
+Served asset /home.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-06 12:03:46 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2011-11-06 12:03:46 -0500
+Served asset /jqueryui.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 12:03:46 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/libs/respond.min.js?body=1" for 127.0.0.1 at 2011-11-06 12:03:46 -0500
+Served asset /libs/respond.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2011-11-06 12:03:46 -0500
+Served asset /specials.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mylibs/helper.js?body=1" for 127.0.0.1 at 2011-11-06 12:03:46 -0500
+Served asset /mylibs/helper.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2011-11-06 12:03:46 -0500
+Served asset /modernizr.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/tabs.js?body=1" for 127.0.0.1 at 2011-11-06 12:03:46 -0500
+Served asset /tabs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/user_sessions.js?body=1" for 127.0.0.1 at 2011-11-06 12:03:46 -0500
+Served asset /user_sessions.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-06 12:03:47 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendors.js?body=1" for 127.0.0.1 at 2011-11-06 12:03:47 -0500
+Served asset /vendors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-06 12:03:47 -0500
+Served asset /application.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/libs/modernizr-custom.js?body=1" for 127.0.0.1 at 2011-11-06 12:03:49 -0500
+Served asset /libs/modernizr-custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/specials?lat=43.0446312&lon=-76.14985209999999" for 127.0.0.1 at 2011-11-06 12:03:50 -0500
+  Processing by SpecialsController#index as */*
+  Parameters: {"lat"=>"43.0446312", "lon"=>"-76.14985209999999"}
+Creating scope :near. Overwriting existing method Vendor.near.
+MONGODB zapwire_development['system.namespaces'].find({})
+MONGODB zapwire_development['vendors'].find({:coordinates=>{"$nearSphere"=>["-76.14985209999999", "43.0446312"], "$maxDistance"=>2.5260461475666176}, :_id=>{"$ne"=>BSON::ObjectId('4eb6bdf61f951e3e4d00000c')}})
+Rendered specials/_index.html.erb (0.6ms)
+Completed 200 OK in 152ms (Views: 17.4ms)
+MONGODB zapwire_development['vendors'].find({:coordinates=>{"$nearSphere"=>[-76.149816, 43.044643], "$maxDistance"=>0.005052092295133236}, :_id=>{"$ne"=>BSON::ObjectId('4eb5bdf51f951e24ee000001')}})
+MONGODB zapwire_development['vendors'].find({:coordinates=>{"$nearSphere"=>[-76.149816, 43.044643], "$maxDistance"=>0.005052092295133236}, :_id=>{"$ne"=>BSON::ObjectId('4eb5bdf51f951e24ee000001')}})

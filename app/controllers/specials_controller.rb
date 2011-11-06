@@ -11,14 +11,26 @@ class SpecialsController < ApplicationController
       #logger.debug params[:lat]
       #logger.debug params[:lon]
       tmpv = Vendor.new
-      tmpv.coordinates = [params[:lat], params[:lon]]
-      @vendors = tmpv.near(20).to_a
-      #@specials = Special.all
-    end
+      #tmpv.coordinates = [params[:lat], params[:lon]]
+      tmpv.coordinates = [params[:lon], params[:lat]]
+      #@cords = tmpv.coordinates.inspect
+      @vendors = tmpv.nearbys(1000000).to_a
+      @specials = []
+      @vendors.each do |vendor|
+        vendor.specials.each do |special|
+          @specials << special
+        end
+      end 
 
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @specials }
+      respond_to do |format|
+        format.html { render :partial => "index", :layout => false }
+        format.json { render json: @specials }
+      end
+    else
+      respond_to do |format|
+        format.html # index.html.erb
+        format.json { render json: @specials }
+      end
     end
   end
 
