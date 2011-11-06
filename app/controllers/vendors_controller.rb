@@ -35,6 +35,7 @@ class VendorsController < ApplicationController
   # GET /vendors/new.json
   def new
     @vendor = Vendor.new
+    @vendor.specials.build
 
     respond_to do |format|
       format.html # new.html.erb
@@ -51,7 +52,7 @@ class VendorsController < ApplicationController
   # POST /vendors.json
   def create
     @vendor = Vendor.new(params[:vendor])
-    @vendor.user = current_user
+    current_user.vendors << @vendor
 
     respond_to do |format|
       if @vendor.save

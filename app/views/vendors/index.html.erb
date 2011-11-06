@@ -7,6 +7,7 @@
     <th></th>
     <th></th>
     <th></th>
+    <th></th>
   </tr>
 
 <% @vendors.each do |vendor| %>
@@ -16,6 +17,7 @@
     <td><%= link_to 'Show', vendor %></td>
     <td><%= link_to 'Edit', edit_vendor_path(vendor) %></td>
     <td><%= link_to 'Destroy', vendor, confirm: 'Are you sure?', method: :delete %></td>
+    <td><%= link_to 'Add Special', new_vendor_special_path(vendor) %></td>
   </tr>
 <% end %>
 </table>

@@ -1,5 +1,6 @@
 class SpecialsController < ApplicationController
   skip_before_filter :require_login, :only => [:index]
+  respond_to :html
 
   # GET /specials
   # GET /specials.json
@@ -48,12 +49,16 @@ class SpecialsController < ApplicationController
   # GET /specials/new
   # GET /specials/new.json
   def new
-    @special = Special.new
+    @vendor = Vendor.find(params[:vendor_id])
+#      @special = Special.new
+    @special = @vendor.specials.build
 
-    respond_to do |format|
-      format.html # new.html.erb
-      format.json { render json: @special }
-    end
+    respond_with(@special)
+
+#    respond_to do |format|
+#      format.html # new.html.erb
+#      format.json { render json: @special }
+#    end
   end
 
   # GET /specials/1/edit
@@ -64,11 +69,17 @@ class SpecialsController < ApplicationController
   # POST /specials
   # POST /specials.json
   def create
-    @special = Special.new(params[:special])
+
+    @vendor = Vendor.find(params[:vendor_id])
+    #@special = Special.new(params[:special])
+    @special = @vendor.specials.build(params[:special])
+
+    #respond_with(@special)
 
     respond_to do |format|
       if @special.save
-        format.html { redirect_to @special, notice: 'Special was successfully created.' }
+        #format.html { redirect_to @special, notice: 'Special was successfully created.' }
+        format.html { redirect_to vendor_specials_path(@vendor), notice: 'Special was successfully created.' }
         format.json { render json: @special, status: :created, location: @special }
       else
         format.html { render action: "new" }

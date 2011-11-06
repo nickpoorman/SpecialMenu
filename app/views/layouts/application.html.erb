@@ -59,6 +59,9 @@
       <div id="container" class="container">
         <div id="container">
           <header>
+          <%- flash.each do |name, msg| -%>
+            <%= content_tag :div, msg, :id => "flash_#{name}" if msg.is_a?(String) %>
+          <%- end -%>
           <h1 id='logo'>special<span>menu</span></h1>
           <!--<a href='/login'>login</a>
           <form name='search' method='get' action='search.html'>

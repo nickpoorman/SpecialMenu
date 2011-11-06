@@ -20,4 +20,6 @@ class Vendor
   embeds_many :specials
 
   belongs_to :user
+
+  accepts_nested_attributes_for :specials, :autosave => true
 end

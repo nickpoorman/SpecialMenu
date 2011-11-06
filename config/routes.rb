@@ -1,8 +1,8 @@
 Zapwire::Application.routes.draw do
 
-  resources :vendors
+  #resources :vendors
 
-  resources :specials
+  #resources :specials
 
   #root :to => "home#index"
   root :to => "specials#index"
@@ -13,6 +13,10 @@ Zapwire::Application.routes.draw do
   #    get :activate
   #  end
   #end
+
+  resources :vendors do
+      resources :specials
+  end
 
   resources :user_sessions
 
