@@ -22,6 +22,8 @@ Zapwire::Application.routes.draw do
 
   match 'login' => 'user_sessions#new', :as => :login
   match 'logout' => 'user_sessions#destroy', :as => :logout
+  #match 'nearspecials' => 'specials#index', :as => :nearspecials
+  resources :specials, :only => [:index]
 
 
   # The priority is based upon order of creation:
