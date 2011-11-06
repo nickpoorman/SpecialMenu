@@ -8,9 +8,11 @@ class SpecialsController < ApplicationController
     if params[:lat].present? && params[:lon].present?
       # need all the vendors near first
       #@vendors = Vendor.near([params[:lat], params[:lon]], 20)
+      #logger.debug params[:lat]
+      #logger.debug params[:lon]
       tmpv = Vendor.new
-      tmpv.coordinates = [43.044643,-76.149816]
-      @vendors = tmpv.near(20)
+      tmpv.coordinates = [params[:lat], params[:lon]]
+      @vendors = tmpv.near(20).to_a
       #@specials = Special.all
     end
 
